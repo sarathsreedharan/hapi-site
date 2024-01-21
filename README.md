@@ -1,7 +1,29 @@
-# Next.js + Contentlayer
+# Next.js + Contentlayer + TypeScript
 
-A template with Next.js 13 app dir, Contentlayer, Tailwind CSS and dark mode.
+Bootstrapped with Vercel's Next.js 13, Contentlayer [template](https://next-contentlayer.vercel.app). Modified by Kickblip.
 
-https://next-contentlayer.vercel.app
+## Techstack Used:
 
+-   Framework: [Next.js](https://nextjs.org/)
+-   Language: [TypeScript](https://www.typescriptlang.org/)
+-   Styling: [Tailwind CSS](https://tailwindcss.com/)
+-   Icons (mostly): [Heroicons](https://heroicons.com/)
+-   Content: [MDX](https://mdxjs.com/)
+-   Content Management: [Contentlayer](https://www.contentlayer.dev/)
+-   Deployment: [Vercel](https://vercel.com/)
 
+## Directory Structure
+
+`app/*`: I'm using the new next.js app directory structure. This directory contains the main app.
+
+`components/*`: All custom components are stored in this directory.
+
+`content/*`: This directory contains all the Contentlayer contents.
+
+`public/*`: This directory contains all the static assets of the website.
+
+`public/covers/*`: This is where the thumbnails for posts are kept. They are matched to the post title.
+
+`public/images/*`: The somewhat confusingly named `images` directory is for images within the posts.
+
+**Bonus Tip:** use `/app/page.tsx` to edit the homepage and use `/app/posts/[...slug]/page.tsx` to edit a post page.
