@@ -1,4 +1,5 @@
 import HomeIntro from "@/components/HomeIntro"
+import HorizontalPostsPreviewSection from "@/components/HorizontalPostsPreviewSection"
 import PostsPreviewSection from "@/components/PostsPreviewSection"
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
                 description="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             />
             <PostsPreviewSection />
+            <HorizontalPostsPreviewSection />
         </>
     )
 }
