@@ -7,8 +7,8 @@ interface Props {
 }
 
 const HomeIntro: React.FC<Props> = ({ title, description }) => {
-    const imageSrc = "/navigation.png";
-    const logoSrc = "/hapi-logo.png";
+    const imageSrc = "/navigation.png"
+    const logoSrc = "/hapi-logo.png"
 
     return (
         <div className="h-screen">
@@ -26,11 +26,9 @@ const HomeIntro: React.FC<Props> = ({ title, description }) => {
                             </button>
                         </Link> */}
 
-
-                        <Link href="https://compsci.colostate.edu/" target="_blank" >
+                        <Link href="https://compsci.colostate.edu/" target="_blank">
                             <img src="/csu.png" alt="HAPI Lab Logo" className="mt-5 h-12" />
                         </Link>
-
                     </div>
                 </div>
                 <div className="flex-1">
