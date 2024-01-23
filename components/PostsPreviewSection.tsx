@@ -1,12 +1,19 @@
 import Link from "next/link"
 import { allPosts } from "@/.contentlayer/generated"
-import ReadMorePostsCard from "./ReadMorePostsCard"
+import ReadMorePostsCard from "@/components/ReadMorePostsCard"
+import ImageCarousel from "@/components/ImageCarousel"
 
 const PostsPreviewSection = () => {
+    const carouselImages = ["/locobot.png", "/rviz.png", "pickplace.jpg", "team.jpg"]
+
     return (
         <div className="flex flex-col md:flex-row h-screen">
-            <div className="flex-1">
+            {/* <div className="flex-1">
                 <img src="/locobot.png" alt="Turtlebot" className="w-full h-full object-cover" />
+            </div> */}
+
+            <div className="flex-1">
+                <ImageCarousel images={carouselImages} />
             </div>
 
             <div className="w-full md:w-1/2 h-full overflow-auto p-4">
