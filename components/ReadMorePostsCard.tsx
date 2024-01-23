@@ -12,7 +12,7 @@ const ReadMorePostsCard = () => {
                     backgroundImage: `url(${cover_url})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
-                    opacity: 0.8,
+                    opacity: 1,
                 }}
             >
                 <div className="absolute right-0 top-0 bottom-0 z-10 flex items-center">
