@@ -8,16 +8,14 @@ type ImageCarouselProps = {
 
 const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0)
-    const [prevImageIndex, setPrevImageIndex] = useState(images.length - 1)
 
     useEffect(() => {
         const timer = setInterval(() => {
-            setPrevImageIndex(currentImageIndex)
             setCurrentImageIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1))
         }, 3000) // Change image every 3 seconds
 
         return () => clearInterval(timer)
-    }, [images, currentImageIndex])
+    }, [images.length])
 
     return (
         <div className="w-full h-screen relative overflow-hidden">
@@ -27,11 +25,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
                     src={img}
                     alt={`Carousel Image ${index + 1}`}
                     className={`absolute w-full h-full object-cover transition-transform duration-700 ease-in-out ${
-                        index === currentImageIndex
-                            ? "transform translate-x-0"
-                            : index === prevImageIndex
-                            ? "transform -translate-x-full"
-                            : "transform translate-x-full"
+                        index === currentImageIndex ? "transform translate-x-0" : "transform -translate-x-full"
                     }`}
                 />
             ))}

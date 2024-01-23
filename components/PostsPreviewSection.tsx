@@ -34,8 +34,10 @@ const PostsPreviewSection = () => {
 
                                     <div className="relative h-[35%] pt-64 z-10">
                                         <div className="h-full flex flex-col justify-between cursor-pointer">
-                                            <h1 className="text-xl py-1 font-semibold">{post.title}</h1>
-                                            {post.description && <p className="font-medium">{post.description}</p>}
+                                            <h1 className="text-lg py-1 font-semibold">{post.title}</h1>
+                                            {post.description && (
+                                                <p className="text-sm font-medium opacity-60">{post.description}</p>
+                                            )}
                                         </div>
                                     </div>
                                 </Link>
