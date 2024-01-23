@@ -1,13 +1,14 @@
-import HomeIntro from "@/components/HomeIntro"
+import PageHero from "@/components/PageHero"
 import HorizontalPostsPreviewSection from "@/components/HorizontalPostsPreviewSection"
 import PostsPreviewSection from "@/components/PostsPreviewSection"
 
 export default function Home() {
     return (
         <>
-            <HomeIntro
+            <PageHero
                 title="Human-Aware Planning and Interaction Lab"
                 description="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                image="/pages/index/navigation.png"
             />
             <PostsPreviewSection />
             {/* <HorizontalPostsPreviewSection /> */}

@@ -7,13 +7,13 @@
     "node_modules": true,
     ".eslintrc.json": true,
     ".prettierrc": true,
-    "next.config.js": true,
     "next-env.d.ts": true,
     "package-lock.json": true,
     "pnpm-lock.yaml": true,
     "postcss.config.js": true,
     "tailwind.config.js": true,
     "tsconfig.json": true,
-    ".gitignore": true
+    ".gitignore": true,
+    "next.config.js": true
   }
 }

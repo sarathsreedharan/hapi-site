@@ -1,8 +1,8 @@
 import Link from "next/link"
 
 const ReadMorePostsCard = () => {
-    const cover_url = "/read-more-cover.png"
-    const read_more_url = "/read-more.svg"
+    const cover_url = "/pages/index/read-more-cover.png"
+    const read_more_url = "/pages/index/read-more.svg"
 
     return (
         <Link href="/research">

@@ -4,7 +4,12 @@ import ReadMorePostsCard from "@/components/ReadMorePostsCard"
 import ImageCarousel from "@/components/ImageCarousel"
 
 const PostsPreviewSection = () => {
-    const carouselImages = ["/locobot.png", "/rviz.png", "pickplace.jpg", "team.jpg"]
+    const carouselImages = [
+        "/pages/index/locobot.png",
+        "/pages/index/rviz.png",
+        "/pages/index/pickplace.jpg",
+        "/pages/index/team.jpg",
+    ]
 
     return (
         <div className="flex flex-col md:flex-row h-screen">

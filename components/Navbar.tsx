@@ -7,11 +7,11 @@ const Navbar = () => {
                 <Link className="hover:text-blue-500 transition-colors duration-200" href="/">
                     Home
                 </Link>
-                <Link className="hover:text-blue-500 transition-colors duration-200" href="/research">
-                    Research
-                </Link>
                 <Link className="hover:text-blue-500 transition-colors duration-200" href="/team">
                     Team
+                </Link>
+                <Link className="hover:text-blue-500 transition-colors duration-200" href="/research">
+                    Research
                 </Link>
                 <Link className="hover:text-blue-500 transition-colors duration-200" href="/demos">
                     Demos
