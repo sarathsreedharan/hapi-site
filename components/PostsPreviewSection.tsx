@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { allPosts } from "@/.contentlayer/generated"
+import ReadMorePostsCard from "./ReadMorePostsCard"
 
 const PostsPreviewSection = () => {
     return (
@@ -10,7 +11,7 @@ const PostsPreviewSection = () => {
 
             <div className="w-full md:w-1/2 h-full overflow-auto p-4">
                 <div className="grid grid-cols-2 grid-rows-2 h-full gap-4 max-w-4xl mx-auto">
-                    {allPosts.slice(0, 4).map(
+                    {allPosts.slice(0, 3).map(
                         (
                             post, // Take the first 4 posts
                         ) => (
@@ -34,6 +35,7 @@ const PostsPreviewSection = () => {
                             </article>
                         ),
                     )}
+                    <ReadMorePostsCard />
                 </div>
             </div>
         </div>
