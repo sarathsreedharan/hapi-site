@@ -12,7 +12,7 @@
             "url": "http://example.com/research/xai-advances",
             "tags": ["XAI"],
             "authors": "Alice Johnson, Bob Lee",
-            "additional": "Presented at AI Symposium 2022"
+            "additional": ""
         },
         {
             "title": "Planning and Learning in AI Systems",
@@ -33,7 +33,7 @@
             "url": "http://example.com/research/xai-life",
             "tags": ["Human-AI Interaction", "XAI", "Planning and Learning"],
             "authors": "Dr. Alex Johnson, Dr. Rachel Green",
-            "additional": "Journal of AI Research, 2023"
+            "additional": ""
         },
         {
             "title": "A Comparative Study on Planning Algorithms",
@@ -47,14 +47,14 @@
             "url": "http://example.com/research/xai-healthcare",
             "tags": ["XAI", "Human-AI Interaction"],
             "authors": "Dr. Lisa Cuddy, Dr. Gregory House",
-            "additional": "Healthcare AI Summit, 2024"
+            "additional": ""
         },
         {
             "title": "Lightweight AI Models for Mobile",
             "url": "http://example.com/research/ai-mobile",
             "tags": ["Model-Lite Planning"],
             "authors": "Tony Stark, Bruce Banner",
-            "additional": "Mobile AI Workshop, 2023"
+            "additional": ""
         }
     ]
 }
