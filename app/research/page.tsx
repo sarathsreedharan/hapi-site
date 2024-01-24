@@ -5,11 +5,11 @@ import PageHero from "@/components/PageHero"
 const Research = () => {
     return (
         <div>
-            <PageHero
+            {/* <PageHero
                 title="What We've Done"
                 description="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                 image="/pages/index/navigation.png"
-            />
+            /> */}
             <ResearchLinksSection />
         </div>
     )
