@@ -5,7 +5,7 @@ const ReadMorePostsCard = () => {
     const read_more_url = "/pages/index/read-more.svg"
 
     return (
-        <Link href="/blog">
+        <Link href="/news">
             <div
                 className="relative w-full h-full text-white flex transition-transform duration-300 ease-in-out transform hover:scale-105 cursor-pointer overflow-hidden"
                 style={{

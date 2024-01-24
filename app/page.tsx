@@ -1,6 +1,7 @@
 import PageHero from "@/components/PageHero"
 import HorizontalPostsPreviewSection from "@/components/HorizontalPostsPreviewSection"
 import PostsPreviewSection from "@/components/PostsPreviewSection"
+import NavigationSection from "@/components/NavigationSection"
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
             />
             <PostsPreviewSection />
             {/* <HorizontalPostsPreviewSection /> */}
+            <NavigationSection />
         </>
     )
 }

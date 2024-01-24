@@ -3,7 +3,7 @@ import PageHero from "@/components/PageHero"
 import Link from "next/link"
 import { allPosts } from "@/.contentlayer/generated"
 
-const Blog = () => {
+const News = () => {
     return (
         <div>
             <PageHero
@@ -39,4 +39,4 @@ const Blog = () => {
     )
 }
 
-export default Blog
+export default News
