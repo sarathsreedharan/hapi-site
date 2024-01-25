@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="bg-gray-100 text-center p-6">
             <div className="flex items-center justify-between">
                 <div className="flex-1 text-lg text-left">
-                    <Link href="mailto:example@example.com" className="font-medium hover:text-blue-600">
+                    <Link href="/contact" className="font-medium hover:text-blue-600">
                         Contact
                     </Link>
                 </div>
