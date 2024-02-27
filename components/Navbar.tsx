@@ -1,25 +1,78 @@
+"use client"
+
+import { useState, useEffect, useRef } from "react"
 import Link from "next/link"
 
 const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false)
+    const toggleMenu = () => setIsOpen(!isOpen)
+
+    // Explicitly typing the ref to possibly be an HTMLDivElement or null
+    const dropdownRef = useRef<HTMLDivElement | null>(null)
+
+    useEffect(() => {
+        // Explicitly type the event parameter
+        const handleClickOutside = (event: MouseEvent) => {
+            if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+                setIsOpen(false)
+            }
+        }
+
+        if (isOpen) {
+            document.addEventListener("mousedown", handleClickOutside)
+        }
+
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside)
+        }
+    }, [isOpen])
+
     return (
-        <header className="sticky top-0 z-50 bg-white">
-            <nav className="text-left text-lg font-medium space-x-12 py-4 ml-12">
-                <Link className="hover:text-blue-500 transition-colors duration-200" href="/">
-                    Home
-                </Link>
-                <Link className="hover:text-blue-500 transition-colors duration-200" href="/team">
-                    Team
-                </Link>
-                <Link className="hover:text-blue-500 transition-colors duration-200" href="/research">
-                    Research
-                </Link>
-                <Link className="hover:text-blue-500 transition-colors duration-200" href="/demos">
-                    Demos
-                </Link>
-                <Link className="hover:text-blue-500 transition-colors duration-200" href="/news">
-                    News
-                </Link>
+        <header className="sticky top-0 z-50 bg-white flex justify-between items-center w-full">
+            <Link href="/" className="pb-4 pt-5 text-xl font-extrabold ml-12 sm:hidden">
+                HAPI
+            </Link>
+
+            <nav className="hidden sm:flex text-left text-lg font-medium space-x-12 py-4 ml-12">
+                <Link href="/">Home</Link>
+                <Link href="/team">Team</Link>
+                <Link href="/research">Research</Link>
+                <Link href="/demos">Demos</Link>
+                <Link href="/news">News</Link>
             </nav>
+
+            <button onClick={toggleMenu} className="sm:hidden mr-12">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+
+            {isOpen && (
+                <div
+                    ref={dropdownRef}
+                    className="absolute top-full right-0 mt-2 w-full sm:w-auto bg-white shadow-md font-semibold z-50 flex flex-col sm:hidden"
+                >
+                    <Link href="/team" className="ml-6 my-4">
+                        Team
+                    </Link>
+                    <Link href="/research" className="ml-6 my-4">
+                        Research
+                    </Link>
+                    <Link href="/demos" className="ml-6 my-4">
+                        Demos
+                    </Link>
+                    <Link href="/news" className="ml-6 my-4">
+                        News
+                    </Link>
+                </div>
+            )}
         </header>
     )
 }

@@ -8,18 +8,16 @@ interface Props {
 }
 
 const PageHero: React.FC<Props> = ({ title, description, image }) => {
-    const imageSrc = "/pages/index/navigation.png"
-    const logoSrc = "/pages/index/hapi-logo.png"
-
     return (
-        <div className="h-screen">
-            <div className="flex w-full h-full">
+        <div className="sm:h-screen h-96">
+            <div className="flex w-full h-fullflex flex-col sm:flex-row w-full h-full sm:mt-0 mt-20">
                 <div className="flex-1 flex items-center justify-center">
                     <div className="pb-8 pt-0 px-8">
                         {/* <img src={logoSrc} alt="HAPI Lab Logo" className="mb-8 h-32" /> */}
 
-                        <h2 className="text-[108px] leading-none font-extrabold text-[#39c9c9c]">{title}</h2>
-                        {/* <p className="mt-4 text-xl dark:text-[#9c9c9c] text-[#505052]">{description}</p> */}
+                        {/* Apply responsive text size for smaller screens without changing the desktop size */}
+                        <h2 className="text-5xl lg:text-[108px] leading-none font-extrabold text-[#39c9c9c]">{title}</h2>
+                        {/* <p className="text-lg sm:text-xl md:text-2xl lg:text-xl dark:text-[#9c9c9c] text-[#505052]">{description}</p> */}
 
                         {/* <Link href="/your-link">
                             <button className="mt-5 text-blue-500 border-2 border-blue-500 py-2 px-4 rounded hover:bg-blue-600 hover:text-white transition-colors duration-200">
@@ -33,7 +31,8 @@ const PageHero: React.FC<Props> = ({ title, description, image }) => {
                     </div>
                 </div>
                 <div className="flex-1">
-                    <img src={image} alt="Turtlebot" className="w-full h-full object-cover" />
+                    {/* Hide the image on smaller screens */}
+                    <img src={image} alt="Turtlebot" className="hidden sm:block w-full h-full object-cover" />
                 </div>
             </div>
         </div>

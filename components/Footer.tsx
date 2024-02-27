@@ -14,7 +14,7 @@ const Footer = () => {
                 </Link>
                 <div className="flex-1 text-md font-medium text-right">
                     <p>© 2024 HAPI Lab</p>
-                    <Link href="https://www.wchprojects.com/" className="hover:underline hover:text-blue-500" target="_blank">
+                    <Link href="https://github.com/kickblip" className="hover:underline hover:text-blue-500" target="_blank">
                         Built by Wyatt Hansen
                     </Link>
                 </div>
