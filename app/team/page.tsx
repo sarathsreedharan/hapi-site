@@ -12,7 +12,7 @@ interface TeamMemberProps {
 
 const TeamMember: React.FC<{ member: TeamMemberProps }> = ({ member }) => {
     return (
-        <div className="max-w-xs rounded overflow-hidden shadow-lg bg-white m-4">
+        <div className="max-w-xs rounded overflow-hidden shadow-lg bg-white m-4 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:text-blue-500">
             <Link href={member.link} target="_blank">
                 <img className="w-full h-60 object-cover" src={member.picture} alt={member.name} />
                 <div className="px-6 py-4">
@@ -29,8 +29,8 @@ const Team = () => {
         <div>
             {/* Page header section */}
             <div className="text-center my-16">
-                <h1 className="text-7xl font-bold text-black mb-4">Meet the Team</h1>
-                <p className="text-xl mb-6">Our dedicated and talented team members that make up the HAPI Lab</p>
+                <h1 className="text-5xl font-bold text-black mb-6">Our Team</h1>
+                {/* <p className="text-xl mb-6">Our dedicated and talented team members that make up the HAPI Lab</p> */}
                 <Link
                     href="/contact"
                     className="bg-blue-500 hover:bg-blue-700 text-white text-lg font-bold py-2 px-4 rounded inline-flex items-center"
