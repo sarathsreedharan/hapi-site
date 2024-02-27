@@ -7,29 +7,30 @@ const NavigationSection: React.FC = () => {
 
     return (
         <div className="h-96 p-4">
-            <div className="grid grid-cols-2 grid-rows-1 gap-4 w-full h-full">
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full h-full">
                 <Link
                     href="/team"
-                    className="flex items-center justify-center opacity-90 transition-transform duration-300 ease-in-out hover:scale-[103%]"
+                    className="flex flex-col items-center justify-center h-full opacity-90 transition-transform duration-300 ease-in-out hover:scale-[103%]"
                     style={{
                         backgroundImage: `url(${team_cover_url})`,
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                     }}
                 >
-                    <p className="text-8xl text-white font-black">TEAM</p>
+                    <p className="text-6xl md:text-8xl text-white font-black">TEAM</p>
                 </Link>
 
                 <Link
                     href="/research"
-                    className="flex items-center justify-center opacity-90 transition-transform duration-300 ease-in-out hover:scale-[103%]"
+                    className="flex flex-col items-center justify-center h-full opacity-90 transition-transform duration-300 ease-in-out hover:scale-[103%]"
                     style={{
                         backgroundImage: `url(${research_cover_url})`,
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                     }}
                 >
-                    <p className="text-8xl text-white font-black">RESEARCH</p>
+                    {/* Responsive text size */}
+                    <p className="text-6xl md:text-8xl text-white font-black">RESEARCH</p>
                 </Link>
             </div>
         </div>
