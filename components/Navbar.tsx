@@ -5,21 +5,34 @@ import Link from "next/link"
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
-    const toggleMenu = () => setIsOpen(!isOpen)
-
-    // Explicitly typing the ref to possibly be an HTMLDivElement or null
     const dropdownRef = useRef<HTMLDivElement | null>(null)
+    const toggleButtonRef = useRef<HTMLButtonElement | null>(null)
+
+    const toggleMenu = (event: React.MouseEvent) => {
+        event.stopPropagation() // Prevent the click from being handled by handleClickOutside
+        setIsOpen(!isOpen)
+    }
 
     useEffect(() => {
-        // Explicitly type the event parameter
+        console.log("Menu is now:", isOpen ? "Open" : "Closed")
+    }, [isOpen])
+
+    useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
-            if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+            if (
+                dropdownRef.current &&
+                !dropdownRef.current.contains(event.target as Node) &&
+                toggleButtonRef.current &&
+                !toggleButtonRef.current.contains(event.target as Node)
+            ) {
                 setIsOpen(false)
             }
         }
 
         if (isOpen) {
             document.addEventListener("mousedown", handleClickOutside)
+        } else {
+            document.removeEventListener("mousedown", handleClickOutside)
         }
 
         return () => {
@@ -41,7 +54,7 @@ const Navbar = () => {
                 <Link href="/news">News</Link>
             </nav>
 
-            <button onClick={toggleMenu} className="sm:hidden mr-12">
+            <button ref={toggleButtonRef} onClick={toggleMenu} className="sm:hidden mr-12">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -59,16 +72,16 @@ const Navbar = () => {
                     ref={dropdownRef}
                     className="absolute top-full right-0 mt-2 w-full sm:w-auto bg-white shadow-md font-semibold z-50 flex flex-col sm:hidden"
                 >
-                    <Link href="/team" className="ml-6 my-4">
+                    <Link href="/team" className="ml-6 my-4" onClick={toggleMenu}>
                         Team
                     </Link>
-                    <Link href="/research" className="ml-6 my-4">
+                    <Link href="/research" className="ml-6 my-4" onClick={toggleMenu}>
                         Research
                     </Link>
-                    <Link href="/demos" className="ml-6 my-4">
+                    <Link href="/demos" className="ml-6 my-4" onClick={toggleMenu}>
                         Demos
                     </Link>
-                    <Link href="/news" className="ml-6 my-4">
+                    <Link href="/news" className="ml-6 my-4" onClick={toggleMenu}>
                         News
                     </Link>
                 </div>
