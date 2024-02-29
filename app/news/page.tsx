@@ -12,7 +12,7 @@ const News = () => {
                 image="/pages/index/navigation.png"
             />
             <div className="w-full h-screen overflow-auto p-4">
-                <div className="grid grid-cols-4 grid-rows-2 h-full gap-4 mx-auto">
+                <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 md:grid-rows-2 h-full gap-4 mx-auto">
                     {allPosts.map((post) => (
                         <article
                             key={post._id}

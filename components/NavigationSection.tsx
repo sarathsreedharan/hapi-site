@@ -10,7 +10,7 @@ const NavigationSection: React.FC = () => {
             <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full h-full">
                 <Link
                     href="/team"
-                    className="flex flex-col items-center justify-center h-full opacity-90 transition-transform duration-300 ease-in-out hover:scale-[103%]"
+                    className="flex flex-col items-center justify-center h-full md:opacity-90 opacity-100 transition-transform duration-300 ease-in-out hover:scale-[103%]"
                     style={{
                         backgroundImage: `url(${team_cover_url})`,
                         backgroundSize: "cover",
@@ -22,7 +22,7 @@ const NavigationSection: React.FC = () => {
 
                 <Link
                     href="/research"
-                    className="flex flex-col items-center justify-center h-full opacity-90 transition-transform duration-300 ease-in-out hover:scale-[103%]"
+                    className="flex flex-col items-center justify-center h-full md:opacity-90 opacity-100 transition-transform duration-300 ease-in-out hover:scale-[103%]"
                     style={{
                         backgroundImage: `url(${research_cover_url})`,
                         backgroundSize: "cover",

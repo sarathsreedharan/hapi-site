@@ -12,21 +12,21 @@ const PostsPreviewSection = () => {
     ]
 
     return (
-        <div className="flex flex-col md:flex-row h-screen">
+        <div className="flex flex-col md:flex-row h-screen md:mb-0 mb-96">
             {/* Hide ImageCarousel on mobile and show on md screens and larger */}
             <div className="hidden md:flex flex-1">
                 <ImageCarousel images={carouselImages} />
             </div>
 
             {/* Adjust posts section for single column layout on mobile and 2x2 on md screens and larger */}
-            <div className="w-full md:w-1/2 h-full overflow-auto p-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2 h-full gap-4 max-w-4xl mx-auto">
+            <div className="w-full md:w-1/2 p-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 h-full gap-4 max-w-4xl mx-auto">
                     {allPosts.slice(0, 4).map(
                         // Adjust to take the first 4 posts
                         (post) => (
                             <article
                                 key={post._id}
-                                className="relative p-4 text-black flex flex-col justify-start opacity-90 hover:opacity-100 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:text-blue-500"
+                                className="relative p-4 text-black flex flex-col justify-start md:opacity-90 opacity-100 hover:opacity-100 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:text-blue-500"
                             >
                                 <Link href={post.slug}>
                                     <div
