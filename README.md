@@ -1,6 +1,6 @@
-# Next.js + Contentlayer + TypeScript
+# Human-Aware Planning and Interaction Lab @ CSU
 
-Bootstrapped with Vercel's Next.js 13, Contentlayer [template](https://next-contentlayer.vercel.app). Modified by Kickblip.
+Bootstrapped with Vercel's Next.js 13, Contentlayer [template](https://next-contentlayer.vercel.app).  Modified by Wyatt H.
 
 ## Techstack Used:
 
