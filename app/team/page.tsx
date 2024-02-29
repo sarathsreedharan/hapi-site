@@ -51,7 +51,7 @@ const Team = () => {
 
             {/* Team grid */}
             <div className="container mx-auto px-4 mb-32">
-                <div className="grid grid-cols-4 gap-4">
+                <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">
                     {teamData.content.map((member) => (
                         <TeamMember key={member.name} member={member} />
                     ))}
