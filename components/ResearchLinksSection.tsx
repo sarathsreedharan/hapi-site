@@ -33,7 +33,7 @@ const ResearchLinksSection: React.FC = () => {
             : researchData.content
 
     return (
-        <div className="flex ml-8 justify-center pt-8">
+        <div className="flex md:ml-8 ml-0 justify-center pt-8">
             <div className="flex w-full min-h-screen">
                 <div className="flex flex-col w-48 p-4 border-r">
                     <h3 className="font-bold text-lg mb-3">Filter Tags</h3>

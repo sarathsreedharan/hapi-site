@@ -3,6 +3,7 @@ import { Inter } from "next/font/google"
 import { Analytics } from "@/components/analytics"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
+import Head from "next/head"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -18,7 +19,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
     return (
         <html lang="en">
-            <head>
+            <Head>
                 {/* <!-- Primary Meta Tags --> */}
                 <title>HAPI Lab CSU</title>
                 <meta name="title" content="HAPI Lab CSU" />
@@ -40,7 +41,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <meta property="twitter:image" content="https://hapi-site.vercel.app/metadata-thumbnail.png" />
                 LIVE
                 {/* <!-- Meta Tags Generated with https://metatags.io --> */}
-            </head>
+            </Head>
             <body
                 className={`antialiased min-h-screen bg-[#ffffff] dark:bg-slate-950 text-slate-900 dark:text-slate-50 ${inter.className}`}
             >
