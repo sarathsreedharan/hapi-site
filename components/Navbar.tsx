@@ -43,7 +43,7 @@ const Navbar = () => {
     return (
         <header className="sticky top-0 z-50 bg-white flex justify-between items-center w-full">
             <Link href="/" className="pb-4 pt-5 text-xl font-extrabold ml-12 sm:hidden">
-                HAPI
+                <img src="logo.png" alt="HAPI" className="h-12" />
             </Link>
 
             <nav className="hidden sm:flex text-left text-lg font-medium space-x-12 py-4 ml-12">

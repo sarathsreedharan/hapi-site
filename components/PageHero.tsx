@@ -13,10 +13,11 @@ const PageHero: React.FC<Props> = ({ title, description, image }) => {
             <div className="flex w-full h-fullflex flex-col sm:flex-row w-full h-full sm:mt-0 mt-20">
                 <div className="flex-1 flex items-center justify-center">
                     <div className="pb-8 pt-0 px-8">
-                        {/* <img src={logoSrc} alt="HAPI Lab Logo" className="mb-8 h-32" /> */}
+                        {/* <img src="logo.png" alt="HAPI Lab Logo" className="mb-8 h-28" /> */}
 
                         {/* Apply responsive text size for smaller screens without changing the desktop size */}
-                        <h2 className="text-5xl lg:text-[108px] leading-none font-extrabold text-[#39c9c9c]">{title}</h2>
+                        {/* [108px] */}
+                        <h2 className="text-5xl lg:text-[78px] leading-none font-extrabold text-[#39c9c9c]">{title}</h2>
                         {/* <p className="text-lg sm:text-xl md:text-2xl lg:text-xl dark:text-[#9c9c9c] text-[#505052]">{description}</p> */}
 
                         {/* <Link href="/your-link">
@@ -25,9 +26,15 @@ const PageHero: React.FC<Props> = ({ title, description, image }) => {
                             </button>
                         </Link> */}
 
-                        <Link href="https://compsci.colostate.edu/" target="_blank">
+                        {/* <Link href="https://compsci.colostate.edu/" target="_blank">
                             <img src="/pages/index/csu.png" alt="HAPI Lab Logo" className="mt-5 h-12" />
-                        </Link>
+                        </Link> */}
+                        <div className="flex mt-12">
+                            <img src="logo.png" alt="HAPI Lab Logo" className="sm:h-24 h-16" />
+                            <Link href="https://compsci.colostate.edu/" target="_blank">
+                                <img src="/pages/index/csu.png" alt="HAPI Lab Logo" className="ml-5 sm:h-24 h-16" />
+                            </Link>
+                        </div>
                     </div>
                 </div>
                 <div className="flex-1">
