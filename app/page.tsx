@@ -1,19 +1,12 @@
 import PageHero from "@/components/PageHero"
-import HorizontalPostsPreviewSection from "@/components/HorizontalPostsPreviewSection"
-import PostsPreviewSection from "@/components/PostsPreviewSection"
-import NavigationSection from "@/components/NavigationSection"
+import ResearchAreas from "@/components/ResearchAreas"
 
 export default function Home() {
     return (
         <>
-            <PageHero
-                title="Human Aware Planning and Interaction Lab"
-                description="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                image="/pages/index/navigation.png"
-            />
-            <PostsPreviewSection />
-            {/* <HorizontalPostsPreviewSection /> */}
-            <NavigationSection />
+            <PageHero title="Human Aware Planning and Interaction Lab" />
+            <div className="w-full h-8 bg-[#c69b3d]"></div>
+            <ResearchAreas />
         </>
     )
 }
