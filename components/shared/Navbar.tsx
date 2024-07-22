@@ -30,7 +30,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div className="absolute bottom-0 transform translate-y-1/2">
+        <div className="absolute bottom-0 transform translate-y-1/2 z-50">
           <Link href="/">
             <Image src="/logo.png" alt="HAPI Logo" width={130} height={130} />
           </Link>
