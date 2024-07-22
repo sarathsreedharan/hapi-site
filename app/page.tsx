@@ -1,5 +1,5 @@
 import Hero from "@/components/landing/Hero"
-import Navbar from "@/components/landing/Navbar"
+import Navbar from "@/components/shared/Navbar"
 import Projects from "@/components/landing/Projects"
 import Research from "@/components/landing/Research"
 import Team from "@/components/landing/Team"
