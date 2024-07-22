@@ -3,7 +3,6 @@ import { allPosts } from "contentlayer/generated"
 
 import { Metadata } from "next"
 import { Mdx } from "@/components/shared/mdx-components"
-import Navbar from "@/components/shared/Navbar"
 
 interface PostProps {
   params: {
@@ -49,16 +48,13 @@ export default async function PostPage({ params }: PostProps) {
   }
 
   return (
-    <div>
-      <Navbar />
-      <div className="flex flex-col items-center justify-center overflow-hidden mb-16">
-        <article className="w-full max-w-full sm:max-w-screen-md py-4 prose dark:prose-invert mx-auto sm:py-6 overflow-auto mt-32">
-          <h1 className="text-base sm:text-lg md:text-xl mb-4">{post.title}</h1>
-          {post.description && <p className="text-sm sm:text-base text-slate-700 dark:text-slate-200">{post.description}</p>}
-          <hr className="my-2 sm:my-4" />
-          <Mdx code={post.body.code} />
-        </article>
-      </div>
+    <div className="flex flex-col items-center justify-center overflow-hidden mb-16">
+      <article className="w-full max-w-full sm:max-w-screen-md py-4 prose dark:prose-invert mx-auto sm:py-6 overflow-auto mt-32">
+        <h1 className="text-base sm:text-lg md:text-xl mb-4">{post.title}</h1>
+        {post.description && <p className="text-sm sm:text-base text-slate-700 dark:text-slate-200">{post.description}</p>}
+        <hr className="my-2 sm:my-4" />
+        <Mdx code={post.body.code} />
+      </article>
     </div>
   )
 }
