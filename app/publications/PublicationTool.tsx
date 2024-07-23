@@ -36,7 +36,7 @@ export default function PublicationTool() {
   return (
     <div className="flex md:ml-8 ml-0 justify-center pt-8">
       <div className="flex w-full min-h-screen">
-        <div className="flex flex-col w-48 p-4 border-r">
+        <div className="flex flex-col w-48 p-4">
           <h3 className="font-bold text-sm mb-3">Filter Tags</h3>
           <ul>
             {availableTags.map((tag, index) => (
@@ -59,13 +59,14 @@ export default function PublicationTool() {
             ))}
           </ul>
         </div>
+        <div className="h-1/2 w-0.5 bg-gray-200"></div>
         <div className="flex-grow p-4 overflow-auto">
           {sortedYears.map((year) => (
             <div key={year}>
               <h2 className="text-sm rounded bg-primary-800 text-white px-3 py-1 font-bold mb-4">{year}</h2>
               <ul>
                 {groupedByYear[year].map((item: Publication, index: number) => (
-                  <li key={index} className="mb-4">
+                  <li key={index} className="mb-4 pl-4">
                     <a href={item.url} className="text-blue-600 font-medium hover:text-blue-800 transition duration-200">
                       {item.title}
                     </a>

@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Team() {
   return (
@@ -13,7 +14,14 @@ export default function Team() {
             </p>
             <p>If you are a student interested in joining the lab, please read our FAQ and consider contacting us here.</p>
           </div>
-          <button className="px-4 py-2 bg-primary-800 text-white font-extrabold rounded">MEET THE TEAM</button>
+          <div>
+            <Link
+              href="/team"
+              className="px-4 py-2 bg-primary-800 hover:bg-primary-500 transition duration-200 text-white font-extrabold rounded"
+            >
+              MEET THE TEAM
+            </Link>
+          </div>
         </div>
 
         <div className="flex-1 w-1/2 flex items-center justify-center">

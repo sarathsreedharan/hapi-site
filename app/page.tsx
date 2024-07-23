@@ -1,4 +1,5 @@
 import Hero from "@/components/landing/Hero"
+import News from "@/components/landing/News"
 import Projects from "@/components/landing/Projects"
 import Research from "@/components/landing/Research"
 import Team from "@/components/landing/Team"
@@ -12,6 +13,7 @@ export default function Home() {
       <Team />
       <Projects />
       <WorkedWith />
+      <News />
     </div>
   )
 }

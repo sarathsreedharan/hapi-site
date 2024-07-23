@@ -33,7 +33,9 @@ export default function Research() {
                 </div>
               ))}
             </div>
-            <button className="px-4 py-2 bg-primary-800 text-white font-extrabold rounded">LEARN MORE</button>
+            <button className="px-4 py-2 bg-primary-800 hover:bg-primary-500 transition duration-200 text-white font-extrabold rounded">
+              LEARN MORE
+            </button>
           </div>
         </div>
       </div>

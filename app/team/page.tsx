@@ -4,7 +4,9 @@ import TeamList from "@/components/team/TeamList"
 export default function About() {
   return (
     <div>
-      <Mission />
+      <div className="bg-primary-800 w-full pt-32 pb-16">
+        <Mission />
+      </div>
       <TeamList />
     </div>
   )
