@@ -7,22 +7,22 @@ export default function Navbar() {
       <nav className="flex justify-center items-center p-4 bg-primary-800 h-16">
         <div className="flex items-center relative z-10">
           <div className="flex space-x-6 items-center ml-4 mr-44">
-            <Link href="/projects" className="text-white hover:text-gray-300 transition duration-200 font-bold">
-              PROJECTS
-            </Link>
             <Link href="/team" className="text-white hover:text-gray-300 transition duration-200 font-bold">
               TEAM
+            </Link>
+            <Link href="/projects" className="text-white hover:text-gray-300 transition duration-200 font-bold">
+              PROJECTS
             </Link>
             <Link href="/publications" className="text-white hover:text-gray-300 transition duration-200 font-bold">
               PUBLICATIONS
             </Link>
           </div>
           <div className="flex space-x-6 items-center">
-            <Link href="/news" className="text-white hover:text-gray-300 transition duration-200 font-bold">
-              NEWS
-            </Link>
             <Link href="/collaborators" className="text-white hover:text-gray-300 transition duration-200 font-bold">
               COLLABORATORS
+            </Link>
+            <Link href="/news" className="text-white hover:text-gray-300 transition duration-200 font-bold">
+              NEWS
             </Link>
             <Link href="/contact" className="text-white hover:text-gray-300 transition duration-200 font-bold">
               CONTACT

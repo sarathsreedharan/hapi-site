@@ -4,6 +4,7 @@ import Image from "next/image"
 export default function Footer() {
   return (
     <div className="bg-primary-800 w-full z-50">
+      <div className="bg-gold-500 w-full h-1"></div>
       <div className="max-w-5xl mx-auto p-6 py-10 flex items-center justify-between">
         <div>
           <Image src="/csu-logo.svg" alt="CSU Logo" width={130} height={130} />
