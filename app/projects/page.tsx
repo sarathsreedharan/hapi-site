@@ -1,6 +1,6 @@
 import ProjectCarousel from "./ProjectCarousel"
 import Geography from "./Geography"
-import { projects } from "@/content/projects"
+import { projects } from "./projects"
 import Demos from "./Demos"
 
 export default function Projects() {
