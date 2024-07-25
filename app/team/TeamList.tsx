@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { teamMembers, colorMap, TeamMember } from "@/content/team/team"
+import { teamMembers, colorMap, TeamMember } from "@/content/team"
 import { FaLinkedin, FaGlobe, FaEnvelope } from "react-icons/fa6"
 
 export default function TeamList() {

@@ -1,5 +1,5 @@
-import Mission from "@/components/team/Mission"
-import TeamList from "@/components/team/TeamList"
+import Mission from "./Mission"
+import TeamList from "./TeamList"
 
 export default function About() {
   return (
