@@ -1,4 +1,5 @@
 import { FaBrain, FaRobot, FaGear, FaCommentDots, FaListCheck, FaDiceD20 } from "react-icons/fa6"
+import Link from "next/link"
 
 const areas = [
   { icon: FaDiceD20, title: "Artificial Intelligence" },
@@ -33,9 +34,12 @@ export default function Research() {
                 </div>
               ))}
             </div>
-            <button className="px-4 py-2 bg-primary-800 hover:bg-primary-500 transition duration-200 text-white font-extrabold rounded">
+            <Link
+              href="/publications"
+              className="px-4 py-2 bg-primary-800 hover:bg-primary-500 transition duration-200 text-white font-extrabold rounded"
+            >
               LEARN MORE
-            </button>
+            </Link>
           </div>
         </div>
       </div>

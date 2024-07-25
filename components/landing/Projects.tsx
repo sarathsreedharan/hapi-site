@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Projects() {
   return (
@@ -20,9 +21,14 @@ export default function Projects() {
               industry partners and researchers from around the world.
             </p>
           </div>
-          <button className="px-4 py-2 bg-primary-800 hover:bg-primary-500 transition duration-200 text-white font-extrabold rounded">
-            LEARN MORE
-          </button>
+          <div>
+            <Link
+              href="/projects"
+              className="px-4 py-2 bg-primary-800 hover:bg-primary-500 transition duration-200 text-white font-extrabold rounded"
+            >
+              LEARN MORE
+            </Link>
+          </div>
         </div>
       </div>
     </section>
