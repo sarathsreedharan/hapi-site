@@ -14,9 +14,9 @@ export default function Info() {
       <div>
         <h2 className="text-lg font-extrabold text-gold-500 mt-2">SOCIAL</h2>
         <div className="flex items-center space-x-2 text-white my-1">
-          <FaInstagram className="w-8 h-8 cursor-pointer hover:text-gray-300" />
-          <FaXTwitter className="w-8 h-8 cursor-pointer hover:text-gray-300" />
-          <FaYoutube className="w-8 h-8 cursor-pointer hover:text-gray-300" />
+          <FaInstagram className="w-8 h-8 cursor-pointer hover:text-gray-300 transition duration-200" />
+          <FaXTwitter className="w-8 h-8 cursor-pointer hover:text-gray-300 transition duration-200" />
+          <FaYoutube className="w-8 h-8 cursor-pointer hover:text-gray-300 transition duration-200" />
         </div>
       </div>
     </div>

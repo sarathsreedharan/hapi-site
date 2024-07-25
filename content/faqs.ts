@@ -1,32 +1,27 @@
 export const faqs = [
   {
-    question: "Any lab meetings I could join to learn more?",
+    question: "Does the HAPI lab work with undergrads??",
     answer:
-      "Currently our lab meets DAY at TIME in Room ## of the computer science building. If interested in joining, please reach out to me for more details.",
+      "Yes! We always encourage undegraduate students to get involved with research, whether that be through the HAPI lab or a different campus lab.",
   },
   {
-    question: "Any lab meetings I could join to learn more?",
+    question: "How can I join the HAPI lab?",
     answer:
-      "Currently our lab meets DAY at TIME in Room ## of the computer science building. If interested in joining, please reach out to me for more details.",
+      "Let's get in touch! Fill out the contact form on this page and we'll be sure to reach back out to you with next steps.",
   },
   {
-    question: "Any lab meetings I could join to learn more?",
+    question: "How are HAPI students funded?",
     answer:
-      "Currently our lab meets DAY at TIME in Room ## of the computer science building. If interested in joining, please reach out to me for more details.",
+      "PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER ",
   },
   {
-    question: "Any lab meetings I could join to learn more?",
+    question: "How would you describe your advising style?",
     answer:
-      "Currently our lab meets DAY at TIME in Room ## of the computer science building. If interested in joining, please reach out to me for more details.",
+      "PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER ",
   },
   {
-    question: "Any lab meetings I could join to learn more?",
+    question: "Are there any lab meetings I could join to learn more?",
     answer:
-      "Currently our lab meets DAY at TIME in Room ## of the computer science building. If interested in joining, please reach out to me for more details.",
-  },
-  {
-    question: "Any lab meetings I could join to learn more?",
-    answer:
-      "Currently our lab meets DAY at TIME in Room ## of the computer science building. If interested in joining, please reach out to me for more details.",
+      "Currently our lab meets DAY at TIME in Room ## of the computer science building. If interested in joining, please reach out for more details.",
   },
 ]

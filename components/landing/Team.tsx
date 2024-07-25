@@ -10,7 +10,7 @@ export default function Team() {
           <div className="space-y-4">
             <p>
               The HAPI Lab is led by Dr. Sarath Sreedharan and consists of Ph.D., Masters and Undergraduate students doing
-              research at all levels...as well as Shaky Jr., our resident robot.
+              research at all levels.
             </p>
             <p>If you are a student interested in joining the lab, please read our FAQ and consider contacting us here.</p>
           </div>
