@@ -10,9 +10,12 @@ export default function Team() {
           <div className="space-y-4">
             <p>
               The HAPI Lab is led by Dr. Sarath Sreedharan and consists of Ph.D., Masters and Undergraduate students doing
-              research at all levels.
+              research at all levels. If you are a student interested in joining the lab, please{" "}
+              <Link href="/contact" className="underline">
+                read our FAQ
+              </Link>{" "}
+              and consider contacting us here.
             </p>
-            <p>If you are a student interested in joining the lab, please read our FAQ and consider contacting us here.</p>
           </div>
           <div>
             <Link

@@ -4,8 +4,8 @@ import Image from "next/image"
 
 export default function News() {
   return (
-    <div className="max-w-4xl mx-auto p-6">
-      <h1 className="text-5xl font-extrabold text-primary-800 text-center my-10">RECENT NEWS</h1>
+    <div className="max-w-4xl mx-auto p-6 my-28">
+      <h1 className="text-5xl font-extrabold text-primary-800 text-center mb-16">RECENT NEWS</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {allPosts.slice(0, 4).map((post) => (
           <article key={post._id} className="overflow-hidden hover:scale-105 transition duration-200">
@@ -19,7 +19,7 @@ export default function News() {
           </article>
         ))}
       </div>
-      <div className="flex justify-center my-10">
+      <div className="flex justify-center mt-14">
         <Link
           href="/news"
           className="px-8 py-2 bg-primary-800 hover:bg-primary-500 transition duration-200 text-white font-extrabold rounded"

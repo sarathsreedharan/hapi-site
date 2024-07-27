@@ -10,8 +10,8 @@ export default function Navbar() {
             <Link href="/team" className="text-white hover:text-gray-300 transition duration-200 font-bold">
               TEAM
             </Link>
-            <Link href="/projects" className="text-white hover:text-gray-300 transition duration-200 font-bold">
-              PROJECTS
+            <Link href="/research" className="text-white hover:text-gray-300 transition duration-200 font-bold">
+              RESEARCH
             </Link>
             <Link href="/publications" className="text-white hover:text-gray-300 transition duration-200 font-bold">
               PUBLICATIONS

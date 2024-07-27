@@ -23,7 +23,7 @@ export default function Projects() {
           </div>
           <div>
             <Link
-              href="/projects"
+              href="/research"
               className="px-4 py-2 bg-primary-800 hover:bg-primary-500 transition duration-200 text-white font-extrabold rounded"
             >
               LEARN MORE

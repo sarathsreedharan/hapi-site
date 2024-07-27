@@ -5,13 +5,13 @@ import { FaLinkedin, FaGlobe, FaEnvelope } from "react-icons/fa6"
 
 export default function TeamList() {
   return (
-    <div className="flex flex-col items-center">
-      <div className="flex flex-col max-w-3xl ">
-        <h1 className="text-5xl text-primary-800 font-bold mb-4 mt-16">MEET THE TEAM</h1>
+    <div className="flex flex-col items-center mb-48">
+      <div className="flex flex-col max-w-3xl mt-20 mb-6">
+        <h1 className="text-5xl text-primary-800 font-bold mb-4">MEET THE TEAM</h1>
         <p className="text-lg text-gray-800 mb-4">
           At the Human-Aware Planning & Interaction (HAPI) Lab, we are dedicated to advancing computer science through innovative
           research and by fostering a supportive comuunity of scholards. Our lab embraces diversity and encourages open-minded
-          exploration across a veriety of research areas.
+          exploration across a variety of research areas.
         </p>
         <p className="text-lg text-gray-800 mb-8">
           Members of our lab come from a variety of academic backgrounds (ranging from journalism to psychology and industrial
