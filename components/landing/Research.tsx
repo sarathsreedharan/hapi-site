@@ -1,14 +1,5 @@
-import { FaBrain, FaRobot, FaGear, FaCommentDots, FaListCheck, FaDiceD20 } from "react-icons/fa6"
 import Link from "next/link"
-
-const areas = [
-  { icon: FaDiceD20, title: "Artificial Intelligence" },
-  { icon: FaBrain, title: "Neuro-symbolic AI" },
-  { icon: FaRobot, title: "Robotics" },
-  { icon: FaGear, title: "Reinforcement Learning" },
-  { icon: FaCommentDots, title: "Explainable + Human-aware AI" },
-  { icon: FaListCheck, title: "Automated Planning" },
-]
+import { areasOfResearch } from "@/content/current-projects"
 
 export default function Research() {
   return (
@@ -27,7 +18,7 @@ export default function Research() {
               </h3>
             </div>
             <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
-              {areas.map((square, index) => (
+              {areasOfResearch.map((square, index) => (
                 <div key={index} className="flex flex-col items-center text-center p-4 py-6 bg-gray-100 rounded">
                   <square.icon className="w-14 h-14 text-primary-800" />
                   <h4 className="mt-2 text-gray-800 font-semibold">{square.title}</h4>
