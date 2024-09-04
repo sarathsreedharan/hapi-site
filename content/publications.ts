@@ -183,7 +183,7 @@ export const publications: Publication[] = [
     title: "A Unifying Bayesian Formulation of Measures of Interpretability in Human-AI Interaction",
     url: "https://yochan-lab.github.io/papers/files/papers/Bayesian_Account.pdf",
     tags: ["XAI"],
-    authors: "Sarath Sreedharan, Anagha Kulkarni, D. Smith, and Subbarao Kambhampati",
+    authors: "Sarath Sreedharan, Anagha Kulkarni, David Smith, and Subbarao Kambhampati",
     year: 2021,
     additional: "IJCAI-Survey 2021"
 },
@@ -191,7 +191,7 @@ export const publications: Publication[] = [
     title: "Designing Environments Conducive to Interpretable Robot Behavior",
     url: "https://yochan-lab.github.io/papers/files/papers/IROS2020_design_for_explicability.pdf",
     tags: ["XAI"],
-    authors: "Anagha Kulkarni*, Sarath Sreedharan*, S. Keren, Tathagata Chakraborti, D. Smith, Subbarao Kambhampati",
+    authors: "Anagha Kulkarni*, Sarath Sreedharan*, Sarah Keren, Tathagata Chakraborti, David Smith, Subbarao Kambhampati",
     year: 2020,
     additional: "IROS 2020"
 },
@@ -239,7 +239,7 @@ export const publications: Publication[] = [
     title: "Why Can't You Do That HAL? Explaining Unsolvability of Planning Tasks",
     url: "https://yochan-lab.github.io/papers/files/papers/IJCAI_19_Camera_Ready_Explaining_Unsolvability.pdf",
     tags: ["XAI"],
-    authors: "Sarath Sreedharan, Siddharth Srivastava, D. Smith, and Subbarao Kambhampati",
+    authors: "Sarath Sreedharan, Siddharth Srivastava, David Smith, and Subbarao Kambhampati",
     year: 2019,
     additional: "IJCAI 2019"
 },
@@ -271,7 +271,7 @@ export const publications: Publication[] = [
     title: "Explicability? Legibility? Predictability? Transparency? Privacy? Security? The Emerging Landscape of Interpretable Agent Behavior",
     url: "https://yochan-lab.github.io/papers/files/papers/landscape.pdf",
     tags: ["XAI", "Adversarial Planning"],
-    authors: "Tathagata Chakraborti, Anagha Kulkarni, Sarath Sreedharan, D. Smith, Subbarao Kambhampati",
+    authors: "Tathagata Chakraborti, Anagha Kulkarni, Sarath Sreedharan, David Smith, Subbarao Kambhampati",
     year: 2019,
     additional: "ICAPS 2019"
 },
@@ -355,6 +355,32 @@ export const publications: Publication[] = [
     year: 2023,
     additional: "XAI workshop at IJCAI 2023"
 },
+
+{   
+    title: "Traversing the Linguistic Divide: Aligning Semantically Equivalent Fluents Through Model Refinement",
+    url: "https://icaps24.icaps-conference.org/program/workshops/keps-papers/KEPS-24_paper_19.pdf",
+    tags: ["Learning for Planning"],
+    authors: "Kelsey Sikes, Morgan Fine-Morris, Sarath Sreedharan and Mark Roberts",
+    year: 2024, 
+    additional: "KEPS Workshop ICAPS 2024"
+},
+{
+    title: "Human-Modeling in Sequential Decision-Making: An Analysis through the Lens of Human-Aware AI",
+    url: "https://openreview.net/pdf?id=ljszDKJ9ME",
+    tags: ["Human-Aware AI", "Value-Alignment"],
+    authors: "Silvia Tulli, Stylianos Loukas Vasileiou, Sarath Sreedharan",
+    year: 2024,
+    additional: "HAXP Workshop ICAPS 2024"
+},
+{   
+    title: "Reducing Human-Robot Goal State Divergence with Environment Design",
+    url: "https://openreview.net/pdf?id=2Khq2mBIfz",
+    tags: ["Human-Aware AI", "Value-Alignment"],
+    authors: "Kelsey Sykes, Sarah Keren, Sarath Sreedharan",
+    year: 2024, 
+    additional: "HAXP Workshop ICAPS 2024"
+},
+
 {
     title: "A Mental-Model Centric Landscape of Human-AI Symbiosis",
     url: "https://arxiv.org/abs/2202.09447",
@@ -423,7 +449,7 @@ export const publications: Publication[] = [
     title: "A Bayesian Account of Measures of Interpretability in Human-AI Interaction",
     url: "https://arxiv.org/abs/2011.10920",
     tags: ["XAI"],
-    authors: "Sarath Sreedharan, Anagha Kulkarni, Tathagata Chakraborti, D. Smith, Subbarao Kambhampati",
+    authors: "Sarath Sreedharan, Anagha Kulkarni, Tathagata Chakraborti, David Smith, Subbarao Kambhampati",
     year: 2020,
     additional: "ICAPS Workshop on Explainable Planning (XAIP) 2020"
 },
@@ -455,7 +481,7 @@ export const publications: Publication[] = [
     title: "Design for interpretability",
     url: "https://yochan-lab.github.io/papers/files/papers/design.pdf",
     tags: ["XAI"],
-    authors: "Anagha Kulkarni*, Sarath Sreedharan*, S. Keren, Tathagata Chakraborti, D. Smith, Subbarao Kambhampati",
+    authors: "Anagha Kulkarni*, Sarath Sreedharan*, Sarah Keren, Tathagata Chakraborti, David Smith, Subbarao Kambhampati",
     year: 2019,
     additional: "ICAPS Workshop on Explainable Planning (XAIP) 2019"
 },
@@ -506,8 +532,7 @@ export const publications: Publication[] = [
     authors: "Yu Zhang, Sarath Sreedharan, Anagha Kulkarni, Tathagata Chakraborti, H. H. Zhuo, Subbarao Kambhampati",
     year: 2016,
     additional: "RSS 2016 Workshop on Planning for Human-Robot Interaction"
-}
-
+},
 {
     title: "Human-Aware AI – A Foundational Framework for Human-AI Interaction",
     url: "https://onlinelibrary.wiley.com/doi/full/10.1002/aaai.12142",
@@ -540,6 +565,4 @@ export const publications: Publication[] = [
     year: 2017,
     additional: "Artificial Intelligence Journal"
 }
-
-
 ]
