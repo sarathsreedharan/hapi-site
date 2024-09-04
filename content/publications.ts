@@ -1,5 +1,5 @@
 // IMPORTANT: if introducing a new tag, add it to the list of possible tags and tag type exactly as it appears in the publication
-export type Tag = "Human-AI Interaction" | "XAI" | "Planning and Learning" | "Model-Lite Planning"
+export type Tag = "Human-Aware AI" | "XAI" | "Planning and Learning" | "Model-Lite Planning" | "Value Alignment" | "Other"
 
 export interface Publication {
   title: string
@@ -22,7 +22,7 @@ export const publications: Publication[] = [
   {
     title: "HELP! Providing Proactive Support in the Presence of Knowledge Asymmetry.",
     url: "http://sarathsreedharan.com/files/papers/conference/_AAMAS_2024_HELP.pdf",
-    tags: ["Human-Aware AI", "AI-Safety"],
+    tags: ["Human-Aware AI"],
     authors: "Turguy Caglar, and Sarath Sreedharanan",
     year: 2024,
     additional: "AAMAS. 2024",
@@ -30,7 +30,7 @@ export const publications: Publication[] = [
   {
     title: "Can LLMs Fix Issues with Reasoning Models? Towards More Likely Models for AI Planning.",
     url: "https://ojs.aaai.org/index.php/AAAI/article/view/28875",
-    tags: ["Learning for Planning", "Generative AI", "LLM"],
+    tags: ["Planning and Learning"],
     authors: "Turguy Caglar, Sirine Belhaj, Michael Katz, Tathagata Chakraborti, and Sarath Sreedharanan",
     year: 2024,
     additional: "AAAI. 2024",
@@ -38,7 +38,7 @@ export const publications: Publication[] = [
   {
     title: "Goal Alignment: Re-analyzing Value Alignment Problems Using Human-Aware AI.",
     url: "https://ojs.aaai.org/index.php/AAAI/article/view/28875",
-    tags: ["Human-AI Interaction", "Value Alignment", "AI-Safety"],
+    tags: ["Human-Aware AI", "Value Alignment"],
     authors: "Malek Mechergui and Sarath Sreedharanan",
     year: 2024,
     additional: "AAAI. 2024",
@@ -46,7 +46,7 @@ export const publications: Publication[] = [
   {
     title: "Human-Aware AI – A Foundational Framework for Human-AI Interaction.",
     url: "https://onlinelibrary.wiley.com/doi/full/10.1002/aaai.12142",
-    tags: ["Human-AI Interaction", "XAI", "Value Alignment", "Human-Aware AI"],
+    tags: ["XAI", "Value Alignment", "Human-Aware AI"],
     authors: "Sarath Sreedharan",
     year: 2023,
     additional: "Published in AI Magazine 2023",
@@ -54,7 +54,7 @@ export const publications: Publication[] = [
 {
     title: "Optimistic Exploration in Reinforcement Learning Using Symbolic Model Estimates",
     url: "https://openreview.net/forum?id=rpQSjBbqMi",
-    tags: ["Reinforcement Learning"],
+    tags: ["Planning and Learning"],
     authors: "Sarath Sreedharan, M. Katz",
     year: 2023,
     additional: "NeurIPS 2023"
@@ -62,7 +62,7 @@ export const publications: Publication[] = [
 {
     title: "On the Planning Abilities of Large Language Models -- A Critical Investigation",
     url: "https://arxiv.org/abs/2305.15771",
-    tags: ["LLM", "Learning for Planning", "Generative AI"],
+    tags: [ "Planning and Learning"],
     authors: "Karthik Valmeekam, M. Marquez, Sarath Sreedharan, Subbarao Kambhampati",
     year: 2023,
     additional: "NeurIPS 2023 (Accepted as Spotlight)"
@@ -70,7 +70,7 @@ export const publications: Publication[] = [
 {
     title: "Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning",
     url: "https://arxiv.org/abs/2305.15771",
-    tags: ["LLM", "Learning for Planning", "Generative AI"],
+    tags: [ "Planning and Learning"],
     authors: "L. Guan*, Karthik Valmeekam*, Sarath Sreedharan, Subbarao Kambhampati",
     year: 2023,
     additional: "NeurIPS 2023"
@@ -78,7 +78,7 @@ export const publications: Publication[] = [
 {
     title: "PlanBench: An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change",
     url: "https://www.dropbox.com/scl/fi/43c5pyxfdx62d5g28lejx/718_planbench_an_extensible_benchm.pdf?rlkey=0agubkt98mbd83hdhme9f0a1p&dl=0",
-    tags: ["LLM", "Learning for Planning", "Generative AI"],
+    tags: [ "Planning and Learning"],
     authors: "Karthik Valmeekam, M. Marquez, A. Olmo, Sarath Sreedharan, Subbarao Kambhampati",
     year: 2023,
     additional: "NeurIPS 2023 (Benchmark Track)"
@@ -86,7 +86,7 @@ export const publications: Publication[] = [
 {
     title: "Human-Aware AI – A Foundational Framework for Human-AI Interaction",
     url: "https://ojs.aaai.org/index.php/AAAI/article/view/26822",
-    tags: ["Human-AI Interaction", "XAI", "Value Alignment", "Human-Aware AI"],
+    tags: ["XAI", "Value Alignment", "Human-Aware AI"],
     authors: "Sarath Sreedharan",
     year: 2023,
     additional: "AAAI 2023 (New Faculty Track)"
@@ -102,7 +102,7 @@ export const publications: Publication[] = [
 {
     title: "Planning for Attacker Entrapment in Adversarial Settings",
     url: "https://arxiv.org/abs/2303.00822",
-    tags: ["Adversarial Planning"],
+    tags: ["Other"],
     authors: "B. Cates, Anagha Kulkarni, Sarath Sreedharan",
     year: 2023,
     additional: "ICAPS 2023"
@@ -110,7 +110,7 @@ export const publications: Publication[] = [
 {
     title: "Goal Alignment: Re-analyzing Value Alignment Problems Using Human-Aware AI",
     url: "https://arxiv.org/abs/2302.00813",
-    tags: ["Human-AI Interaction", "Value Alignment", "AI-Safety"],
+    tags: ["Value Alignment"],
     authors: "M. Mechergui, Sarath Sreedharan",
     year: 2023,
     additional: "AAMAS 2023 (Extended Abstract)"
@@ -118,7 +118,7 @@ export const publications: Publication[] = [
 {
     title: "Trust-Aware Planning: Modeling Trust Evolution in Iterated Human-Robot Interaction",
     url: "https://dl.acm.org/doi/pdf/10.1145/3568162.3578628",
-    tags: ["Human-AI Interaction", "Trust Modeling"],
+    tags: ["Other"],
     authors: "Zahra Zahedi, M. Verma, Sarath Sreedharan, Subbarao Kambhampati",
     year: 2023,
     additional: "HRI 2023"
@@ -126,7 +126,7 @@ export const publications: Publication[] = [
 {
     title: "Explicable or Optimal: Trust Aware Planning in Iterated Human Robot Interaction",
     url: "https://youtu.be/Y2Ej2tHwufs",
-    tags: ["Human-AI Interaction", "Trust Modeling", "XAI"],
+    tags: ["Other", "XAI"],
     authors: "Zahra Zahedi, Sarath Sreedharan, Karthik Valmeekam, Subbarao Kambhampati",
     year: 2023,
     additional: "ICRA 2023 (Accepted as a stand-alone video)"
@@ -134,7 +134,7 @@ export const publications: Publication[] = [
 {
     title: "Leveraging Approximate Symbolic Models for Reinforcement Learning via Skill Diversity",
     url: "https://arxiv.org/abs/2202.02886",
-    tags: ["Reinforcement Learning"],
+    tags: ["Planning and Learning"],
     authors: "L. Guan*, Sarath Sreedharan*, and Subbarao Kambhampati",
     year: 2022,
     additional: "ICML 2022"
@@ -142,7 +142,7 @@ export const publications: Publication[] = [
 {
     title: "Bridging the Gap: Providing Post-Hoc Symbolic Explanations for Sequential Decision-Making Problems with Inscrutable Representations",
     url: "https://arxiv.org/abs/2002.01080",
-    tags: ["XAI", "Reinforcement Learning"],
+    tags: ["XAI", "Planning and Learning"],
     authors: "Sarath Sreedharan, U. Soni, M. Verma, Siddharth Srivastava, and Subbarao Kambhampati",
     year: 2022,
     additional: "ICLR 2022"
@@ -254,7 +254,7 @@ export const publications: Publication[] = [
 {
     title: "CAP: A Decision Support System for Crew Scheduling using Automated Planning",
     url: "https://yochan-lab.github.io/papers/files/papers/CAP.pdf",
-    tags: ["XAI", "Decision-Support"],
+    tags: ["XAI"],
     authors: "A. Mishra, S. Sengupta, Sarath Sreedharan, Tathagata Chakraborti, and Subbarao Kambhampati",
     year: 2019,
     additional: "NDM 2019"
@@ -270,7 +270,7 @@ export const publications: Publication[] = [
 {
     title: "Explicability? Legibility? Predictability? Transparency? Privacy? Security? The Emerging Landscape of Interpretable Agent Behavior",
     url: "https://yochan-lab.github.io/papers/files/papers/landscape.pdf",
-    tags: ["XAI", "Adversarial Planning"],
+    tags: ["XAI", "Human-Aware AI", "Other"],
     authors: "Tathagata Chakraborti, Anagha Kulkarni, Sarath Sreedharan, David Smith, Subbarao Kambhampati",
     year: 2019,
     additional: "ICAPS 2019"
@@ -278,7 +278,7 @@ export const publications: Publication[] = [
 {
     title: "Projection-Aware Task Planning and Execution for Human-in-the-Loop Operation of Robots in a Mixed-Reality Workspace",
     url: "https://yochan-lab.github.io/papers/files/papers/projection-aware.pdf",
-    tags: ["Human-AI Interaction"],
+    tags: ["Human-Aware AI"],
     authors: "Tathagata Chakraborti, Sarath Sreedharan, Anagha Kulkarni, Subbarao Kambhampati",
     year: 2018,
     additional: "IROS 2018"
@@ -326,7 +326,7 @@ export const publications: Publication[] = [
 {
     title: "Compliant Conditions for Polynomial Time Approximation of Operator Counts",
     url: "http://rakaposhi.eas.asu.edu/socs-16.pdf",
-    tags: ["Planning Heuristics"],
+    tags: ["Other"],
     authors: "Tathagata Chakraborti, Sarath Sreedharan, S. Sengupta, T. K. Satish, Subbarao Kambhampati",
     year: 2016,
     additional: "Symposium on Combinatorial Search (SOCS) 2016"
@@ -334,7 +334,7 @@ export const publications: Publication[] = [
 {
     title: "A Formal Analysis of Required Cooperation in Multi-agent Planning",
     url: "http://rakaposhi.eas.asu.edu/yu-zhang-icaps16.pdf",
-    tags: ["Multi-Agent Planning"],
+    tags: ["Other"],
     authors: "Yu Zhang, Sarath Sreedharan, Subbarao Kambhampati",
     year: 2016,
     additional: "ICAPS 2016"
@@ -342,7 +342,7 @@ export const publications: Publication[] = [
 {
     title: "Capability Models and their application in Multi-agent planning",
     url: "http://rakaposhi.eas.asu.edu/AAMAS15.pdf",
-    tags: ["Learning for Planning"],
+    tags: ["Planning and Learning"],
     authors: "Yu Zhang, Sarath Sreedharan, Subbarao Kambhampati",
     year: 2015,
     additional: "AAMAS 2015"
@@ -350,7 +350,7 @@ export const publications: Publication[] = [
 {
     title: "A Mental Model Based Theory of Trust",
     url: "https://arxiv.org/abs/2301.12569",
-    tags: ["Human-AI Interaction", "Human-Aware AI", "Trust-Modeling"],
+    tags: ["Human-Aware AI", "Other"],
     authors: "Zahra Zahedi, Sarath Sreedharan, Subbarao Kambhampati",
     year: 2023,
     additional: "XAI workshop at IJCAI 2023"
@@ -359,7 +359,7 @@ export const publications: Publication[] = [
 {   
     title: "Traversing the Linguistic Divide: Aligning Semantically Equivalent Fluents Through Model Refinement",
     url: "https://icaps24.icaps-conference.org/program/workshops/keps-papers/KEPS-24_paper_19.pdf",
-    tags: ["Learning for Planning"],
+    tags: ["Planning and Learning"],
     authors: "Kelsey Sikes, Morgan Fine-Morris, Sarath Sreedharan and Mark Roberts",
     year: 2024, 
     additional: "KEPS Workshop ICAPS 2024"
@@ -367,7 +367,7 @@ export const publications: Publication[] = [
 {
     title: "Human-Modeling in Sequential Decision-Making: An Analysis through the Lens of Human-Aware AI",
     url: "https://openreview.net/pdf?id=ljszDKJ9ME",
-    tags: ["Human-Aware AI", "Value-Alignment"],
+    tags: ["Human-Aware AI", "Value Alignment"],
     authors: "Silvia Tulli, Stylianos Loukas Vasileiou, Sarath Sreedharan",
     year: 2024,
     additional: "HAXP Workshop ICAPS 2024"
@@ -375,7 +375,7 @@ export const publications: Publication[] = [
 {   
     title: "Reducing Human-Robot Goal State Divergence with Environment Design",
     url: "https://openreview.net/pdf?id=2Khq2mBIfz",
-    tags: ["Human-Aware AI", "Value-Alignment"],
+    tags: ["Human-Aware AI", "Value Alignment"],
     authors: "Kelsey Sykes, Sarah Keren, Sarath Sreedharan",
     year: 2024, 
     additional: "HAXP Workshop ICAPS 2024"
@@ -384,7 +384,7 @@ export const publications: Publication[] = [
 {
     title: "A Mental-Model Centric Landscape of Human-AI Symbiosis",
     url: "https://arxiv.org/abs/2202.09447",
-    tags: ["Human-AI Interaction", "Human-Aware AI"],
+    tags: ["Human-Aware AI"],
     authors: "Zahra Zahedi, Sarath Sreedharan, Subbarao Kambhampati",
     year: 2023,
     additional: "R2HCAI AAAI 2023"
@@ -408,7 +408,7 @@ export const publications: Publication[] = [
 {
     title: "Large Language Models Still Can't Plan (A Benchmark for LLMs on Planning and Reasoning about Change)",
     url: "https://arxiv.org/abs/2206.10498",
-    tags: ["LLM", "Learning for Planning"],
+    tags: [ "Planning and Learning"],
     authors: "Karthik Valmeekam*, A. Olmo*, Sarath Sreedharan, Subbarao Kambhampati",
     year: 2022,
     additional: "Workshop on Foundations Models for Decision Making, NeurIPS 2022"
@@ -432,7 +432,7 @@ export const publications: Publication[] = [
 {
     title: "Trust-Aware Planning: Modeling Trust Evolution in Longitudinal Human-Robot Interaction",
     url: "https://arxiv.org/abs/2105.01220",
-    tags: ["Trust-Modeling"],
+    tags: ["Other"],
     authors: "Zahra Zahedi, M. Verma, Sarath Sreedharan, Subbarao Kambhampati",
     year: 2021,
     additional: "ICAPS Workshop on Explainable Planning (XAIP) 2021"
@@ -440,7 +440,7 @@ export const publications: Publication[] = [
 {
     title: "GPT3-to-plan: Extracting plans from text using GPT-3",
     url: "https://arxiv.org/abs/2106.07131",
-    tags: ["Learning for Planning"],
+    tags: ["Planning and Learning"],
     authors: "A. Olmo, Sarath Sreedharan, Subbarao Kambhampati",
     year: 2021,
     additional: "ICAPS Workshop on Planning for Financial Services (FinPlan) 2021"
@@ -520,7 +520,7 @@ export const publications: Publication[] = [
 {
     title: "Alternative Modes of Interaction in Proximal Human-in-the-Loop Operation of Robots",
     url: "https://arxiv.org/abs/1703.08930",
-    tags: ["Human-AI Interaction"],
+    tags: ["Other"],
     authors: "Tathagata Chakraborti, Sarath Sreedharan, Anagha Kulkarni, Subbarao Kambhampati",
     year: 2017,
     additional: "ICAPS 2017 UISP Workshop; and ICAPS 2017 System Demo and Exhibits"
@@ -560,7 +560,7 @@ export const publications: Publication[] = [
 {
     title: "Robust planning with incomplete domain models",
     url: "http://authors.elsevier.com/sd/article/S0004370216301539",
-    tags: ["Planning with Incomplete Models"],
+    tags: ["Model-Lite Planning"],
     authors: "T. Nguyen, Subbarao Kambhampati, Sarath Sreedharan",
     year: 2017,
     additional: "Artificial Intelligence Journal"
