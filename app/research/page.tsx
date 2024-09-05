@@ -1,18 +1,14 @@
-import React from "react"
-import ResearchLinksSection from "@/components/ResearchLinksSection"
-import PageHero from "@/components/PageHero"
+import ProjectCarousel from "./ProjectCarousel"
+import Geography from "./Geography"
+import { projects } from "./projects"
+import Demos from "./Demos"
 
-const Research = () => {
-    return (
-        <div>
-            {/* <PageHero
-                title="What We've Done"
-                description="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                image="/pages/index/navigation.png"
-            /> */}
-            <ResearchLinksSection />
-        </div>
-    )
+export default function Projects() {
+  return (
+    <div className="min-h-screen">
+      <ProjectCarousel projects={projects} />
+      <Geography />
+      <Demos />
+    </div>
+  )
 }
-
-export default Research
