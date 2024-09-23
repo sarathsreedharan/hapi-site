@@ -65,15 +65,6 @@ export const teamMembers: TeamMember[] = [
     email: "septia.rani@colostate.edu",
   },
   {
-    name: "Wyatt Hansen",
-    title: "Undergraduate Student",
-    focus: "",
-    image: "/team/wyatt.png",
-    email: "wyatt.hansen@colostate.edu",
-    linkedin: { text: "Wyatt Hansen", url: "https://www.linkedin.com/in/wyatt-hansen-945088245/" },
-    website: { text: "wchprojects.com", url: "https://www.wchprojects.com/" },
-  },
-  {
     name: "Shaky Jr.",
     title: "Resident Robot",
     focus: "",

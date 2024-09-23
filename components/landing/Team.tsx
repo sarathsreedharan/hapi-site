@@ -3,9 +3,9 @@ import Link from "next/link"
 
 export default function Team() {
   return (
-    <section className="p-16 bg-gold-500 w-full">
+    <section className="p-6 md:p-16 bg-gold-500 w-full">
       <div className="flex flex-col md:flex-row items-center gap-8 max-w-7xl mx-auto">
-        <div className="flex-1 flex-col text-left space-y-6 p-4 w-1/2">
+        <div className="flex-1 flex-col text-left space-y-6 p-4 w-full md:w-1/2">
           <h2 className="text-5xl font-extrabold text-primary-800">THE HAPI TEAM</h2>
           <div className="space-y-4">
             <p>
@@ -27,7 +27,7 @@ export default function Team() {
           </div>
         </div>
 
-        <div className="flex-1 w-1/2 flex items-center justify-center">
+        <div className="hidden md:flex flex-1 w-1/2 flex items-center justify-center">
           <Image src="/landing/CMP-SCI-Building.jpg" alt="HAPI LAB TEAM" width={600} height={400} className="rounded" />
         </div>
       </div>

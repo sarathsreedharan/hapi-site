@@ -6,7 +6,7 @@ import { FaLinkedin, FaGlobe, FaEnvelope } from "react-icons/fa6"
 export default function TeamList() {
   return (
     <div className="flex flex-col items-center mb-48">
-      <div className="flex flex-col max-w-3xl mt-20 mb-6">
+      <div className="flex flex-col max-w-3xl mt-20 mb-6 px-6 md:px-0">
         <h1 className="text-5xl text-primary-800 font-bold mb-4">MEET THE TEAM</h1>
         <p className="text-lg text-gray-800 mb-4">
           At the Human-Aware Planning & Interaction (HAPI) Lab, we are dedicated to advancing computer science through innovative

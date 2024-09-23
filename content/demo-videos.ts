@@ -7,27 +7,14 @@ export interface DemoVideo {
 export const demoVideos: DemoVideo[] = [
   // first video (index 0) is larger on the page
   {
-    title: "Autonomous Delivery Robot",
+    title: "Demo for HELM Explanation Generation System",
     description:
-      "This is a really unique and cool video description that says a lot about whats in the video. Super cool robot in this one! Check it out!",
-    url: "https://www.youtube.com/watch?v=9QyPHuIHvvg",
+      "We show how abstraction could be used to generate explanations for robot behavior, tailored to the user's level of expertise",
+    url: "https://youtu.be/qUHg8RABjsw",
   },
   {
-    title: "Autonomous Delivery Robot",
-    description:
-      "This is a really unique and cool video description that says a lot about whats in the video. Super cool robot in this one! Check it out!",
-    url: "https://www.youtube.com/watch?v=9QyPHuIHvvg",
-  },
-  {
-    title: "Autonomous Delivery Robot",
-    description:
-      "This is a really unique and cool video description that says a lot about whats in the video. Super cool robot in this one! Check it out!",
-    url: "https://www.youtube.com/watch?v=9QyPHuIHvvg",
-  },
-  {
-    title: "Autonomous Delivery Robot",
-    description:
-      "This is a really unique and cool video description that says a lot about whats in the video. Super cool robot in this one! Check it out!",
-    url: "https://www.youtube.com/watch?v=9QyPHuIHvvg",
+    title: "",
+    description: "",
+    url: "https://www.youtube.com/watch?v=bLqrtffW6Ng",
   },
 ]

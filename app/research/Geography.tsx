@@ -10,7 +10,7 @@ export default function Geography() {
       <div className="w-full md:w-1/2 flex flex-col justify-center p-4">
         <h2 className="text-4xl font-bold text-primary-800 mb-4">A CULTURE OF LEARNING</h2>
         <p className="text-gray-800 mb-6">
-          Each year, our students travel golbally to attend conferences and present their research - allowing them to recieve
+          Each year, our students travel globally to attend conferences and present their research - allowing them to recieve
           valuable feedback about their work, gain practical experience presenting it, and engage with the research community as a
           whole.
         </p>
@@ -18,14 +18,14 @@ export default function Geography() {
           To continue growing their knowledge and skills, members of the lab are alos always encouraged to participate in various
           learning opportunities related to the lab and beyond it.
         </p>
-        <div>
+        {/* <div>
           <Link
             href="/project-details"
             className="bg-primary-800 hover:bg-primary-500 transition duration-200 text-white rounded px-6 py-2 text-center font-semibold"
           >
             LEARN MORE
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   )

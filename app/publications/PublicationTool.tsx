@@ -34,33 +34,38 @@ export default function PublicationTool() {
   const sortedYears = Object.keys(groupedByYear).sort((a, b) => parseInt(b) - parseInt(a))
 
   return (
-    <div className="flex md:ml-8 ml-0 justify-center pt-8">
-      <div className="flex w-full min-h-screen">
-        <div className="flex flex-col w-48 p-4">
+    <div className="md:ml-8 ml-0 pt-8">
+      <div className="flex flex-col md:flex-row w-full">
+        {/* Filter Controls */}
+        <div className="flex flex-col md:w-56 p-4">
           <h3 className="font-bold text-sm mb-3">Filter Tags</h3>
-          <ul>
+          <ul className="flex flex-wrap md:flex-col">
             {availableTags.map((tag, index) => (
-              <li key={index} className="mb-2 cursor-pointer" onClick={() => handleTagSelect(tag)}>
-                <span className="inline-block rounded py-1 px-2 mr-1 text-xs font-medium hover:opacity-90 transition duration-200 text-white bg-primary-800">
+              <li key={index} className="mb-2 mr-2 cursor-pointer" onClick={() => handleTagSelect(tag)}>
+                <span className="inline-block rounded py-1 px-2 text-xs font-medium hover:opacity-90 transition duration-200 text-white bg-primary-800">
                   {tag}
                 </span>
               </li>
             ))}
           </ul>
           <hr className="my-4" />
-          <h3 className="font-bold text-sm mb-3">Sorting By</h3>
-          <ul>
+          <h3 className="font-bold text-sm mb-3">Selected Tags</h3>
+          <ul className="flex flex-wrap md:flex-col">
             {selectedTags.map((tag, index) => (
-              <li key={index} className="mb-2 cursor-pointer" onClick={() => handleTagDeselect(tag)}>
-                <span className="inline-block rounded py-1 px-2 mr-1 text-xs hover:opacity-80 font-medium transition duration-200 text-white bg-primary-800">
+              <li key={index} className="mb-2 mr-2 cursor-pointer" onClick={() => handleTagDeselect(tag)}>
+                <span className="inline-block rounded py-1 px-2 text-xs hover:opacity-80 font-medium transition duration-200 text-white bg-primary-800">
                   {tag}
                 </span>
               </li>
             ))}
           </ul>
         </div>
-        <div className="h-1/2 w-0.5 bg-gray-200"></div>
-        <div className="flex-grow p-4 overflow-auto">
+
+        {/* Divider */}
+        <div className="hidden md:block w-0.5 bg-gray-200"></div>
+
+        {/* Publication Display */}
+        <div className="p-4">
           {sortedYears.map((year) => (
             <div key={year}>
               <h2 className="text-sm rounded bg-primary-800 text-white px-3 py-1 font-bold mb-4">{year}</h2>
@@ -74,16 +79,16 @@ export default function PublicationTool() {
                       <span>{item.authors}</span>
                       {item.additional && <span> - {item.additional}</span>}
                     </div>
-                    {/* <div className="my-1">
+                    <div className="my-1">
                       {item.tags?.map((tag) => (
                         <span
                           key={tag}
-                          className="inline-block rounded py-1 px-2 mr-1 text-xs font-medium transition duration-200 text-white bg-primary-800"
+                          className="inline-block rounded py-1 px-2 mr-1 text-xs font-medium transition duration-200 text-black bg-gold-500"
                         >
                           {tag}
                         </span>
                       ))}
-                    </div> */}
+                    </div>
                   </li>
                 ))}
               </ul>
