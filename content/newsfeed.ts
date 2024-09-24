@@ -2,14 +2,27 @@ export interface NewsUpdate {
   title: string
   description: string
   date: string // format: MM-DD-YYYY
-  learnMore: string
+  learnMore?: string
 }
 
 export const publications: NewsUpdate[] = [
   {
-    title: "Planning with Mental Models Balancing Explanations and Explicability",
-    description: "In this paper, we present a novel approach to planning with mental models",
+    title: "Advances in AI-Driven Mental Model Planning",
+    description:
+      "This article explores the recent developments in artificial intelligence for planning with complex mental models.",
     date: "09-22-2024",
-    learnMore: "http://sarathsreedharan.com/files/papers/journals/_AIJ__Balancing__Submission_Copy_.pdf",
+    learnMore: "/posts/deploying-next-apps",
+  },
+  {
+    title: "Optimizing Human-AI Interaction through Mental Model Simulations",
+    description:
+      "Researchers demonstrate how simulating mental models can improve human-AI interactions, leading to better collaboration. I love coding I love coding I love coding I love coding I love coding I love coding I love coding I love coding I love coding.",
+    date: "09-23-2024",
+  },
+  {
+    title: "Exploring Cognitive Load in AI-Assisted Decision Making",
+    description:
+      "A new approach to balancing cognitive load in AI-assisted decision making highlights potential improvements in user experience.",
+    date: "09-23-2024",
   },
 ]
