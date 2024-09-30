@@ -28,7 +28,7 @@ export default function Team() {
         </div>
 
         <div className="hidden md:flex flex-1 w-1/2 flex items-center justify-center">
-          <Image src="/landing/CMP-SCI-Building.jpg" alt="HAPI LAB TEAM" width={600} height={400} className="rounded" />
+          <Image src="/landing/lab-group-photo.jpg" alt="HAPI LAB TEAM" width={1000} height={1000} className="rounded" />
         </div>
       </div>
     </section>
