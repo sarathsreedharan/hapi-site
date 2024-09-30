@@ -11,14 +11,14 @@ export default function Info() {
         <h2 className="text-lg font-extrabold text-gold-500">VISIT US</h2>
         <p className="text-sm text-white font-semibold">456 University Avenue, Fort Collins, CO 80521</p>
       </div>
-      <div>
+      {/* <div>
         <h2 className="text-lg font-extrabold text-gold-500 mt-2">SOCIAL</h2>
         <div className="flex items-center space-x-2 text-white my-1">
           <FaInstagram className="w-8 h-8 cursor-pointer hover:text-gray-300 transition duration-200" />
           <FaXTwitter className="w-8 h-8 cursor-pointer hover:text-gray-300 transition duration-200" />
           <FaYoutube className="w-8 h-8 cursor-pointer hover:text-gray-300 transition duration-200" />
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

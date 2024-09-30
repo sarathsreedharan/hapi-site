@@ -12,16 +12,10 @@ export const faqs = [
   {
     question: "How are HAPI students funded?",
     answer:
-      "PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER ",
-  },
-  {
-    question: "How would you describe your advising style?",
-    answer:
-      "PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER PLACEHOLDER ",
+      "HAPI students are generally funded as GRA through Federal and international grants (in the case of graduate students) and as hourly workers in the undergraduate case. However, the funding is usually contingent on the available grants. Feel free to reach out to Sarath to look for availability of funded opportunities.",
   },
   {
     question: "Are there any lab meetings I could join to learn more?",
-    answer:
-      "Currently our lab meets DAY at TIME in Room ## of the computer science building. If interested in joining, please reach out for more details.",
+    answer: "Currently our lab meets Fridays 2-4pm MT in CSB 452. If interested in joining, please reach out for more details.",
   },
 ]

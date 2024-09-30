@@ -15,15 +15,9 @@ export default function Footer() {
           <p>456 University Avenue</p>
           <p>Fort Collins, CO 80521</p>
         </div>
-        <div className="flex flex-col w-full text-left text-white">
-          <h2 className="text-xl font-bold mb-2">FOLLOW US</h2>
-          <Link href="#instagram" className="hover:underline">
-            Instagram
-          </Link>
-          <Link href="#twitter" className="hover:underline">
-            Twitter
-          </Link>
-          <Link href="#github" className="hover:underline">
+        <div className="flex flex-col w-full text-left text-white self-start">
+          <h2 className="text-xl font-bold mb-2 mt-3">FOLLOW US</h2>
+          <Link href="https://github.com/Kickblip/hapi-site" className="hover:underline">
             Github
           </Link>
         </div>
