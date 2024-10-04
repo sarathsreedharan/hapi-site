@@ -15,7 +15,7 @@ export default function ProjectPreview() {
           </p>
           <div>
             <Link
-              href="/example"
+              href="https://arapahoe.extension.colostate.edu/nbw/"
               className="bg-gray-800 hover:bg-gray-700 transition duration-200 text-white rounded px-8 py-1.5 font-semibold"
             >
               LEARN MORE
