@@ -1,9 +1,8 @@
 import { FaBrain, FaRobot, FaGear, FaCommentDots, FaListCheck, FaDiceD20 } from "react-icons/fa6"
 
 /*
-To edit the current project previews in the hero carousel on the Projects page,
-you need to open projects.tsx under:
-app/projects/projects.tsx
+Right now theres no way to edit the project carousel on /research
+You can find the current component code in app/research/ProjectPreview.tsx
 */
 
 export const areasOfResearch = [

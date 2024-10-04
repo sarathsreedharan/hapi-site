@@ -3,7 +3,7 @@ export default function ContactForm() {
     <div className="max-w-md mx-auto p-8">
       <h3 className="text-xl text-primary-500 font-bold">INTERESTED IN THE LAB?</h3>
       <h2 className="text-4xl text-gold-500 font-black mb-6">JOIN THE HAPINESS</h2>
-      <form action="https://formsubmit.co/fd27b6bb72468c02d6340d54058eb4cc" method="POST">
+      <form action={`https://formsubmit.co/${process.env.NEXT_PUBLIC_FORMSUBMIT_CONTACT}`} method="POST">
         <input type="text" name="_honey" className="hidden"></input>
         <input type="hidden" name="_next" value={`${process.env.NEXT_PUBLIC_SITE_URL}/contact/success`}></input>
         <div className="grid grid-cols-1 gap-2">

@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Geography() {
   return (
-    <div className="max-w-7xl mx-auto flex p-4 mt-24">
+    <div className="max-w-7xl mx-auto flex md:flex-row flex-col md:p-4 mt-24">
       <div className="w-full md:w-1/2 flex justify-center items-center p-6">
         <Image src="/projects/map-no-markers.jpg" alt="Map image" width={600} height={400} className="w-full h-auto" />
       </div>

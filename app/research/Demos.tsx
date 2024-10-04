@@ -22,7 +22,7 @@ export default function Demos() {
         <div className="w-full md:w-1/2 flex justify-center items-center md:p-8">
           <ReactPlayer url={demoVideos[0].url} width="100%" height="325px" />
         </div>
-        <div className="w-full md:w-1/2 flex flex-col justify-center p-8">
+        <div className="w-full md:w-1/2 flex flex-col justify-center py-8 px-4 md:px-8">
           <h2 className="text-3xl font-bold text-primary-800 mb-4">{demoVideos[0].title}</h2>
           <p className="text-gray-800 mb-6">{demoVideos[0].description}</p>
         </div>
