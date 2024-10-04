@@ -17,4 +17,14 @@ export const demoVideos: DemoVideo[] = [
     description: "",
     url: "https://www.youtube.com/watch?v=bLqrtffW6Ng",
   },
+  {
+    title: "",
+    description: "",
+    url: "https://www.youtube.com/watch?v=40Xol2GY7zE",
+  },
+  {
+    title: "",
+    description: "",
+    url: "https://www.youtube.com/watch?v=5UVBq7veOCw",
+  },
 ]

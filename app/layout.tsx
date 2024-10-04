@@ -7,8 +7,31 @@ import Footer from "@/components/shared/Footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "HAPI Lab",
-  description: "CSU HAPI Lab",
+  title: "The HAPI Lab | CSU",
+  description: "The Human-Aware Planning and Interaction lab at Colorado State University.",
+  openGraph: {
+    url: "https://hapi-lab.org/",
+    title: "The HAPI Lab | CSU",
+    description: "The Human-Aware Planning and Interaction lab at Colorado State University.",
+    siteName: "HAPI Lab",
+    images: [
+      {
+        url: "https://hapi-lab.org/ogimage.png",
+        width: 1200,
+        height: 628,
+        alt: "HAPI Lab",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The HAPI Lab | CSU",
+    description: "The Human-Aware Planning and Interaction lab at Colorado State University.",
+    images: { url: "https://hapi-lab.org/ogimage.png", alt: "HAPI Lab" },
+  },
+  category: "education",
 }
 
 export default function RootLayout({

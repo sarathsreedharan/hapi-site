@@ -7,22 +7,20 @@ export interface NewsUpdate {
 
 export const publications: NewsUpdate[] = [
   {
-    title: "Advances in AI-Driven Mental Model Planning",
-    description:
-      "This article explores the recent developments in artificial intelligence for planning with complex mental models.",
-    date: "09-22-2024",
-    learnMore: "/posts/deploying-next-apps",
+    title: "Malek Mechergui has just completed her Master's Defense.",
+    description: "",
+    date: "10-01-2024",
   },
   {
-    title: "Optimizing Human-AI Interaction through Mental Model Simulations",
+    title: "NeurIPS-24 Acceptance",
     description:
-      "Researchers demonstrate how simulating mental models can improve human-AI interactions, leading to better collaboration. I love coding I love coding I love coding I love coding I love coding I love coding I love coding I love coding I love coding.",
-    date: "09-23-2024",
+      'Malek\'s paper "Expectation Alignment: Handling Reward Misspecification in the Presence of Expectation Mismatch" just got accepted to NeurIPS-24.',
+    date: "09-25-2024",
   },
   {
-    title: "Exploring Cognitive Load in AI-Assisted Decision Making",
-    description:
-      "A new approach to balancing cognitive load in AI-assisted decision making highlights potential improvements in user experience.",
-    date: "09-23-2024",
+    title: "HAXP-24 Workshop at ICAPS",
+    description: "Sarath gave a talk at HAXP-24 workshop at ICAPS on the topic of Human-aware AI. You can see the talk below.",
+    date: "06-12-2024",
+    learnMore: "https://www.youtube.com/watch?v=tgBex83dA60",
   },
 ]
