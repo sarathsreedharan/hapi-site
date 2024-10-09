@@ -2,7 +2,7 @@ import { FaXTwitter, FaInstagram, FaYoutube } from "react-icons/fa6"
 
 export default function Info() {
   return (
-    <div className="p-8 flex flex-col space-y-6 mt-8">
+    <div className="p-4 md:p-8 flex flex-col space-y-6 mb-8 md:mb-0 md:mt-8">
       <div className="mb-4">
         <h2 className="text-lg font-extrabold text-gold-500">SAY HI!</h2>
         <p className="text-sm text-white font-semibold">sarath.sreedharan@colostate.edu</p>

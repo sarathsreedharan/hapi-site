@@ -20,7 +20,7 @@ export default function TeamList() {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 p-6 max-w-5xl">
         {teamMembers.map((member: TeamMember, index: number) => (
-          <div key={index} className="flex flex-col items-center w-96">
+          <div key={index} className="flex flex-col items-center w-full">
             <Image src={member.image} alt={member.name} width={700} height={700} className="w-96 h-96 object-cover" />
             <div className="w-full p-4 h-44" style={{ backgroundColor: colorMap[member.title] }}>
               <h2 className="text-xl font-bold text-left text-white">{member.name.toUpperCase()}</h2>

@@ -5,8 +5,8 @@ import Info from "./Info"
 export default function Contact() {
   return (
     <div className="bg-primary-800 py-16 min-h-screen">
-      <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-start p-6">
-        <div className="w-full sm:w-1/2 p-4">
+      <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-start md:p-6">
+        <div className="w-full sm:w-1/2 md:p-4">
           <ContactForm />
         </div>
         <div className="w-full sm:w-1/2 p-4">

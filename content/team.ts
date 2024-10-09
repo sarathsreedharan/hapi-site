@@ -12,7 +12,7 @@ export interface TeamMember {
 }
 
 export const colorMap = {
-  "Assistant Professor": "#1E4D2B",
+  "Assistant Professor": "#1E4D2B", // Hex colors
   "Ph.D. Student": "#D9782D",
   "Undergraduate Student": "#E56A54",
   "Resident Robot": "#008FB3",

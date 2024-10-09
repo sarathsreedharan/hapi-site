@@ -1,3 +1,4 @@
+// FAQs on the contact page
 export const faqs = [
   {
     question: "Does the HAPI lab work with undergrads??",

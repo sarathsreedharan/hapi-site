@@ -5,6 +5,26 @@ export interface NewsUpdate {
   learnMore?: string
 }
 
+/* 
+News updates for the newsfeed sections
+
+If you want to add an on-site article to a news update, add a learnMore field with the link to the article
+an example article/link is:
+https://hapi-lab.org/posts/example-post
+(you can navigate to this URL to see it in action)
+
+Creating an article like the one above is easy.
+1. navigate to content/posts/ in this project directory
+2. create a new markdown file and be sure to include the proper header format (use the example as a template)
+3. write your content
+4. add the link for your article to the learnMore field of your news update
+
+ADDITIONAL NOTE:
+YOU MUST FOLLOW the date format of MM-DD-YYYY for JSON entries below
+23/9/24 will NOT work
+
+*/
+
 export const publications: NewsUpdate[] = [
   {
     title: "Malek Mechergui has just completed her Master's Defense.",

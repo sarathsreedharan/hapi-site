@@ -5,6 +5,7 @@ Right now theres no way to edit the project carousel on /research
 You can find the current component code in app/research/ProjectPreview.tsx
 */
 
+// These will edit content of the boxes for the the areas of research section on the landing page
 export const areasOfResearch = [
   { icon: FaDiceD20, title: "Artificial Intelligence" },
   { icon: FaBrain, title: "Neuro-symbolic AI" },

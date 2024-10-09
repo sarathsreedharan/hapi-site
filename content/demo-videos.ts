@@ -4,6 +4,7 @@ export interface DemoVideo {
   url: string
 }
 
+// Demo videos (youtube links) for the demos section of the Research page
 export const demoVideos: DemoVideo[] = [
   // first video (index 0) is larger on the page
   {
