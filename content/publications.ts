@@ -14,6 +14,15 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
+   title: "Expectation Alignment: Handling Reward Misspecification in the Presence of Expectation Mismatch",
+    url: "https://arxiv.org/abs/2404.08791",
+    tags: ["Human-Aware AI", "Value Alignment"],
+    authors: "Malek Mechergui, Sarath Sreedharanan",
+    year: 2024,
+    additional: "NeurIPS 2024.",
+    
+  }.
+  {
     title: "Planning with Mental Models – Balancing Explanations and Explicability",
     url: "http://sarathsreedharan.com/files/papers/journals/_AIJ__Balancing__Submission_Copy_.pdf",
     tags: ["Human-Aware AI", "XAI"],
