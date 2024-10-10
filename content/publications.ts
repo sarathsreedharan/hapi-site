@@ -14,19 +14,18 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
-   title: "Expectation Alignment: Handling Reward Misspecification in the Presence of Expectation Mismatch",
+    title: "Expectation Alignment: Handling Reward Misspecification in the Presence of Expectation Mismatch",
     url: "https://arxiv.org/abs/2404.08791",
     tags: ["Human-Aware AI", "Value Alignment"],
-    authors: "Malek Mechergui, Sarath Sreedharanan",
+    authors: "Malek Mechergui, Sarath Sreedharan",
     year: 2024,
     additional: "NeurIPS 2024.",
-    
-  }.
+  },
   {
     title: "Planning with Mental Models – Balancing Explanations and Explicability",
     url: "http://sarathsreedharan.com/files/papers/journals/_AIJ__Balancing__Submission_Copy_.pdf",
     tags: ["Human-Aware AI", "XAI"],
-    authors: "Sarath Sreedharanan, Tathagata Chakraborti, Christian Muise, and Subbarao Kambhampati",
+    authors: "Sarath Sreedharan, Tathagata Chakraborti, Christian Muise, and Subbarao Kambhampati",
     year: 2024,
     additional: "Artificial Intelligence Journal. July 2024 (Accepted)",
   },
@@ -34,7 +33,7 @@ export const publications: Publication[] = [
     title: "HELP! Providing Proactive Support in the Presence of Knowledge Asymmetry.",
     url: "http://sarathsreedharan.com/files/papers/conference/_AAMAS_2024_HELP.pdf",
     tags: ["Human-Aware AI"],
-    authors: "Turguy Caglar, and Sarath Sreedharanan",
+    authors: "Turguy Caglar, and Sarath Sreedharan",
     year: 2024,
     additional: "AAMAS. 2024",
   },
@@ -42,7 +41,7 @@ export const publications: Publication[] = [
     title: "Can LLMs Fix Issues with Reasoning Models? Towards More Likely Models for AI Planning.",
     url: "https://ojs.aaai.org/index.php/AAAI/article/view/28875",
     tags: ["Planning and Learning"],
-    authors: "Turguy Caglar, Sirine Belhaj, Michael Katz, Tathagata Chakraborti, and Sarath Sreedharanan",
+    authors: "Turguy Caglar, Sirine Belhaj, Michael Katz, Tathagata Chakraborti, and Sarath Sreedharan",
     year: 2024,
     additional: "AAAI. 2024",
   },
@@ -50,7 +49,7 @@ export const publications: Publication[] = [
     title: "Goal Alignment: Re-analyzing Value Alignment Problems Using Human-Aware AI.",
     url: "https://ojs.aaai.org/index.php/AAAI/article/view/28875",
     tags: ["Human-Aware AI", "Value Alignment"],
-    authors: "Malek Mechergui and Sarath Sreedharanan",
+    authors: "Malek Mechergui and Sarath Sreedharan",
     year: 2024,
     additional: "AAAI. 2024",
   },
