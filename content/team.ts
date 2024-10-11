@@ -61,7 +61,7 @@ export const teamMembers: TeamMember[] = [
     name: "Septia Rani",
     title: "Ph.D. Student",
     focus: "Reinforcement Learning",
-    image: "/team/default.jpg",
+    image: "/team/septia.png",
     email: "septia.rani@colostate.edu",
   },
   {
