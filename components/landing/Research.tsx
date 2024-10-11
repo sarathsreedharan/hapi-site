@@ -8,7 +8,7 @@ export default function Research() {
         <div className="hidden md:flex flex-1">
           <img src="/landing/HAPI-ROBOT.png" alt="Descriptive Alt Text" className="max-w-full h-auto" />
         </div>
-        <div className="flex-1 py-10 px-8 md:px-4 md:py-0">
+        <div className="flex-1 py-12 px-8 md:px-4">
           <div className="flex flex-col items-center space-y-8">
             <div className="flex flex-col text-center space-y-2">
               <h2 className="text-5xl text-primary-800 font-bold mb-2">RESEARCH AREAS</h2>
