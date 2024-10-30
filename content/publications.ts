@@ -14,6 +14,14 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
+    title: "Resiliency Graphs: Modelling the Interplay between Cyber Attacks and System Failures through AI Planning",
+    url: "",
+    tags: ["Other"],
+    authors: "Shadaab Kawnain Bashir, Rakesh Podder, Sarath Sreedharan, Indrakshi Ray, and Indrajit Ray",
+    year: 2024,
+    additional: "IEEE TPS 2024. (Won Best Paper Award)",
+  },
+  {
     title: "Expectation Alignment: Handling Reward Misspecification in the Presence of Expectation Mismatch",
     url: "https://arxiv.org/abs/2404.08791",
     tags: ["Human-Aware AI", "Value Alignment"],
