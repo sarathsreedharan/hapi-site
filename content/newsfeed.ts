@@ -43,4 +43,10 @@ export const publications: NewsUpdate[] = [
     date: "06-12-2024",
     learnMore: "https://www.youtube.com/watch?v=tgBex83dA60",
   },
+  {
+    title: "Shakey Jr. Getting into the Halloween Spirit",
+    description: "Shakey Jr. giving candy out to CSU students and faculty for Halloween",
+    date: "10-31-2024",
+    learnMore: "/posts/halloween-24",
+  },
 ]
