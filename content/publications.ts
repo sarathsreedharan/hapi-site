@@ -15,7 +15,7 @@ export interface Publication {
 export const publications: Publication[] = [
   {
     title: "Resiliency Graphs: Modelling the Interplay between Cyber Attacks and System Failures through AI Planning",
-    url: "",
+    url: "https://sarathsreedharan.com/files/papers/conference/IEEE_TPS__Resiliency_Graphs.pdf",
     tags: ["Other"],
     authors: "Shadaab Kawnain Bashir, Rakesh Podder, Sarath Sreedharan, Indrakshi Ray, and Indrajit Ray",
     year: 2024,
