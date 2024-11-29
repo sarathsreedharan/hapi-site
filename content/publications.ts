@@ -558,14 +558,6 @@ export const publications: Publication[] = [
     additional: "RSS 2016 Workshop on Planning for Human-Robot Interaction",
   },
   {
-    title: "Human-Aware AI – A Foundational Framework for Human-AI Interaction",
-    url: "https://onlinelibrary.wiley.com/doi/full/10.1002/aaai.12142",
-    tags: ["XAI"],
-    authors: "Sarath Sreedharan",
-    year: 2023,
-    additional: "AI Magazine",
-  },
-  {
     title: "Foundations of Explanations as Model Reconciliation",
     url: "https://yochan-lab.github.io/papers/files/papers/AIJ__Model_Reconciliation__Submission_Copy_.pdf",
     tags: ["XAI"],
