@@ -14,6 +14,22 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
+    title: "Who Am I Dealing With? Explaining the Designer's Hidden Intentions",
+    url: "https://hapi-lab.org/publications",
+    tags: ["Human-Aware AI"],
+    authors: "Turgay Caglar, Mor Vered, Sarath Sreedharan",
+    year: 2025,
+    additional: "AAMAS 2025.",
+  },
+  {
+    title: "Excuse My Explanations: Integrating Excuses and Model Reconciliation for Actionable Explanations",
+    url: "https://hapi-lab.org/publications",
+    tags: ["Human-Aware AI"],
+    authors: "Turgay Caglar, Zahra Zahedi, Sarath Sreedharan",
+    year: 2025,
+    additional: "HRI 2025.",
+  },
+  {
     title: "Resiliency Graphs: Modelling the Interplay between Cyber Attacks and System Failures through AI Planning",
     url: "https://sarathsreedharan.com/files/papers/conference/IEEE_TPS__Resiliency_Graphs.pdf",
     tags: ["Other"],

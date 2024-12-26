@@ -26,7 +26,6 @@ YOU MUST FOLLOW the date format of MM-DD-YYYY for JSON entries below
 */
 
 export const publications: NewsUpdate[] = [
-
   {
     title: "Malek Mechergui has just completed her Master's Defense.",
     description: "",
