@@ -66,4 +66,10 @@ export const publications: NewsUpdate[] = [
       'Turgay\'s paper "Who Am I Dealing With? Explaining the Designer\'s Hidden Intentions" just got accepted to AAMAS-25.',
     date: "12-19-2024",
   },
+  {
+    title: "HRI-25 Acceptance",
+    description:
+      'Septia\'s paper "Goals vs. Rewards: Towards A Comparative Study of Objective Specification Mechanisms" just got accepted to HRI-25 Late-Breaking Reports.',
+    date: "01-06-2025",
+  },
 ]

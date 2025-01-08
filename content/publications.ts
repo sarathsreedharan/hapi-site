@@ -14,6 +14,14 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
+    title: "Goals vs. Rewards: Towards A Comparative Study of Objective Specification Mechanisms",
+    url: "https://hapi-lab.org/publications",
+    tags: ["Human-Aware AI"],
+    authors: "Septia Rani, Serena Booth, Sarath Sreedharan",
+    year: 2025,
+    additional: "HRI 2025 (Late-Breaking Reports)",
+  },
+  {
     title: "Who Am I Dealing With? Explaining the Designer's Hidden Intentions",
     url: "https://hapi-lab.org/publications",
     tags: ["Human-Aware AI"],
