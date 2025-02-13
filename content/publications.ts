@@ -14,6 +14,14 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
+    title: "Explain it as simple as possible, but no simpler – Explanation via model simplification for addressing inferential gap",
+    url: "https://hapi-lab.org/publications",
+    tags: ["Human-Aware AI", "XAI"],
+    authors: "Sarath Sreedharan, Siddharth Srivastava, Subbarao Kambhampati",
+    year: 2025,
+    additional: "AI Journal",
+  },
+  {
     title: "Goals vs. Rewards: Towards A Comparative Study of Objective Specification Mechanisms",
     url: "https://hapi-lab.org/publications",
     tags: ["Human-Aware AI"],
