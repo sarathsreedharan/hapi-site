@@ -44,13 +44,6 @@ export const teamMembers: TeamMember[] = [
     linkedin: { text: "Kelsey Sikes", url: "https://www.linkedin.com/in/kelsey-sikes/" },
   },
   {
-    name: "Malek Mechergui",
-    title: "Ph.D. Student",
-    focus: "AI, Planning & Value Alignment",
-    image: "/team/malek.png",
-    email: "malek.merchergui@colostate.edu",
-  },
-  {
     name: "Brittany Cates",
     title: "Ph.D. Student",
     focus: "Adversarial Learning",
