@@ -3,7 +3,7 @@
 
 export interface TeamMember {
   name: string
-  title: "Ph.D. Student" | "Assistant Professor" | "Undergraduate Student" | "Resident Robot" | "Masters Student"
+  title: "Ph.D." | "Assistant Professor" | "Undergraduate" | "Resident Robot" | "Ms"
   focus?: string
   image: string
   email?: string
@@ -13,10 +13,10 @@ export interface TeamMember {
 
 export const colorMap = {
   "Assistant Professor": "#1E4D2B", // Hex colors
-  "Ph.D. Student": "#D9782D",
-  "Undergraduate Student": "#E56A54",
+  "Ph.D.": "#D9782D",
+  Undergraduate: "#E56A54",
   "Resident Robot": "#008FB3",
-  "Masters Student": "#7E5475",
+  Ms: "#7E5475",
 }
 
 export const teamMembers: TeamMember[] = [
@@ -30,14 +30,14 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Turguy Caglar",
-    title: "Ph.D. Student",
+    title: "Ph.D.",
     focus: "AI & Planning",
     image: "/team/turguy.png",
     email: "turguy.caglar@colostate.edu",
   },
   {
     name: "Kelsey Sikes",
-    title: "Ph.D. Student",
+    title: "Ph.D.",
     focus: "AI, Planning & Value Alignment",
     image: "/team/kelsey.png",
     email: "ksikes@colostate.edu",
@@ -45,22 +45,66 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Brittany Cates",
-    title: "Ph.D. Student",
+    title: "Ph.D.",
     focus: "Adversarial Learning",
     image: "/team/brittany.png",
     email: "brittany.cates@colostate.edu",
   },
   {
     name: "Septia Rani",
-    title: "Ph.D. Student",
+    title: "Ph.D.",
     focus: "Reinforcement Learning",
     image: "/team/septia.png",
     email: "septia.rani@colostate.edu",
+  },
+  {
+    name: "Dennis Kim",
+    title: "Ph.D.",
+    focus: "",
+    image: "/team/dennis.jpg",
+    email: "",
+  },
+  {
+    name: "Erfan Mirhaji",
+    title: "Ms",
+    focus: "",
+    image: "/team/default.jpg",
+    email: "",
+  },
+  {
+    name: "Phil Hopkins",
+    title: "Ms",
+    focus: "",
+    image: "/team/phil.jpg",
+    email: "",
+  },
+  {
+    name: "Trisha Ghali",
+    title: "Ms",
+    focus: "",
+    image: "/team/trisha.jpg",
+    email: "",
   },
   {
     name: "Shaky Jr.",
     title: "Resident Robot",
     focus: "",
     image: "/team/shaky-jr.png",
+  },
+]
+
+export const alumni: TeamMember[] = [
+  {
+    name: "Malek Merchergui",
+    title: "Ms",
+    focus: "AI, Planning & Value Alignment",
+    image: "/team/malek.png",
+    email: "malek.merchergui@colostate.edu",
+  },
+  {
+    name: "Wyatt Hansen",
+    title: "Undergraduate",
+    focus: "",
+    image: "/team/wyatt.jpg",
   },
 ]

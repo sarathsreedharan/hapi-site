@@ -13,7 +13,7 @@ export default function Team() {
               research at all levels. If you are a student interested in joining the lab, please{" "}
               <Link href="/contact" className="underline">
                 read our FAQ
-              </Link>{" "}
+              </Link>
               and consider contacting us here.
             </p>
           </div>
@@ -28,7 +28,7 @@ export default function Team() {
         </div>
 
         <div className="hidden md:flex flex-1 w-1/2 flex items-center justify-center">
-          <Image src="/landing/lab-group-photo.jpg" alt="HAPI LAB TEAM" width={1000} height={1000} className="rounded" />
+          <Image src="/landing/lab-group.jpg" alt="HAPI LAB TEAM" width={1000} height={1000} className="rounded" />
         </div>
       </div>
     </section>

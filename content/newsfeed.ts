@@ -27,7 +27,7 @@ YOU MUST FOLLOW the date format of MM-DD-YYYY for JSON entries below
 
 export const publications: NewsUpdate[] = [
   {
-    title: "Malek Mechergui has just completed her Master's Defense.",
+    title: "Malek Mechergui has just completed her Master's Defense",
     description: "",
     date: "10-01-2024",
   },
@@ -45,7 +45,7 @@ export const publications: NewsUpdate[] = [
   },
   {
     title: "Shakey Jr. Getting into the Halloween Spirit",
-    description: "Shakey Jr. giving candy out to CSU students and faculty for Halloween",
+    description: "Shakey Jr. gives candy out to CSU students and faculty for Halloween.",
     date: "10-31-2024",
     learnMore: "/posts/halloween-24",
   },
@@ -56,14 +56,14 @@ export const publications: NewsUpdate[] = [
     date: "12-02-2024",
   },
   {
-    title: "Turgay Caglar has passed his Ph.D. preliminary exam.",
+    title: "Turgay Caglar has passed his Ph.D. preliminary exam",
     description: "",
     date: "12-05-2024",
   },
   {
     title: "AAMAS-25 Acceptance",
     description:
-      'Turgay\'s paper "Who Am I Dealing With? Explaining the Designer\'s Hidden Intentions" just got accepted to AAMAS-25.',
+      "Turgay's paper \"Who Am I Dealing With? Explaining the Designer's Hidden Intentions\" just got accepted to AAMAS-25.",
     date: "12-19-2024",
   },
   {
@@ -71,5 +71,10 @@ export const publications: NewsUpdate[] = [
     description:
       'Septia\'s paper "Goals vs. Rewards: Towards A Comparative Study of Objective Specification Mechanisms" just got accepted to HRI-25 Late-Breaking Reports.',
     date: "01-06-2025",
+  },
+  {
+    title: "Sarath was selected as one of the AI's 10 to Watch by IEEE Intelligent Systems",
+    description: "",
+    date: "02-25-2025",
   },
 ]
