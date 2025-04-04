@@ -31,7 +31,7 @@ export const publications: Publication[] = [
   },
   {
     title: "Who Am I Dealing With? Explaining the Designer's Hidden Intentions",
-    url: "https://hapi-lab.org/publications",
+    url: "https://sarathsreedharan.com/files/papers/conference/_CamReady_AAMAS_25__Designer.pdf",
     tags: ["Human-Aware AI"],
     authors: "Turgay Caglar, Sarath Sreedharan, Mor Vered",
     year: 2025,
@@ -39,7 +39,7 @@ export const publications: Publication[] = [
   },
   {
     title: "Excuse My Explanations: Integrating Excuses and Model Reconciliation for Actionable Explanations",
-    url: "https://hapi-lab.org/publications",
+    url: "https://sarathsreedharan.com/files/papers/conference/HRI__Excuse_Explanation_ARE__Cam_Ready.pdf",
     tags: ["Human-Aware AI"],
     authors: "Turgay Caglar, Zahra Zahedi, Sarath Sreedharan",
     year: 2025,
