@@ -13,6 +13,22 @@ export interface Publication {
 // JSON for publications section of the Research page
 
 export const publications: Publication[] = [
+    {
+    title: "Mental Model-based Generation of Lies for Insider Threat Modeling",
+    url: "https://sarathsreedharan.com/files/papers/workshops/RAD_truelies.pdf",
+    tags: ["Human-Aware AI", "XAI"],
+    authors: "Brittany Cates, Sarath Sreedharan",
+    year: 2025,
+    additional: "RAD-AI Workshop at AAMAS-23",
+  },
+  {
+    title: "You said No, What's Next?",
+    url: "https://sarathsreedharan.com/files/papers/workshops/RAD_AI_NEXT.pdf",
+    tags: ["Human-Aware AI", "XAI"],
+    authors: "Sarath Sreedharan, Gordon M. Briggs",
+    year: 2025,
+    additional: "RAD-AI Workshop at AAMAS-23",
+  },
   {
     title: "Explain it as simple as possible, but no simpler – Explanation via model simplification for addressing inferential gap",
     url: "https://sarathsreedharan.com/files/papers/journals/_AIJ__Model_Simplification__Combined_.pdf",
