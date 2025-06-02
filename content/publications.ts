@@ -1,5 +1,5 @@
 // IMPORTANT: if introducing a new tag, add it to the list of possible tags and tag type exactly as it appears in the publication
-export type Tag = "Human-Aware AI" | "XAI" | "Planning and Learning" | "Model-Lite Planning" | "Value Alignment" | "Other"
+export type Tag = "Human-Aware AI" | "XAI" | "Planning and Learning" | "Model-Lite Planning" | "Value Alignment" | "ITS"| "Other"
 
 export interface Publication {
   title: string
@@ -13,6 +13,14 @@ export interface Publication {
 // JSON for publications section of the Research page
 
 export const publications: Publication[] = [
+        {
+      title: "On the Role of Domain Experts in Creating Effective Tutoring Systems",
+      url: "https://sarathsreedharan.com/files/papers/conference/AIED_bluesky.pdf",
+      tags: ["Human-Aware AI", "XAI", "ITS"],
+      authors: "Sarath Sreedharan, Kelsey Sikes, Nathaniel Blanchard, Lisa Mason, Nikhil Krishnaswamy, Jill Zarestky",
+      year: 2025,
+      additional: "RAD-AI Workshop at AAMAS-23",
+    },
     {
     title: "Mental Model-based Generation of Lies for Insider Threat Modeling",
     url: "https://sarathsreedharan.com/files/papers/workshops/RAD_truelies.pdf",
@@ -43,7 +51,7 @@ export const publications: Publication[] = [
     tags: ["Human-Aware AI"],
     authors: "Septia Rani, Serena Booth, Sarath Sreedharan",
     year: 2025,
-    additional: "HRI 2025 (Late-Breaking Reports)",
+    additional: "RLC and HRI 2025 (Late-Breaking Reports)",
   },
   {
     title: "Who Am I Dealing With? Explaining the Designer's Hidden Intentions",
