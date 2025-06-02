@@ -51,7 +51,7 @@ export const publications: Publication[] = [
     tags: ["Human-Aware AI"],
     authors: "Septia Rani, Serena Booth, Sarath Sreedharan",
     year: 2025,
-    additional: "HRI 2025 (Late-Breaking Reports)",
+    additional: "RLC and HRI 2025 (Late-Breaking Reports)",
   },
   {
     title: "Who Am I Dealing With? Explaining the Designer's Hidden Intentions",
