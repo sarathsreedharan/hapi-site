@@ -12,7 +12,15 @@ export interface Publication {
 
 // JSON for publications section of the Research page
 
-export const publications: Publication[] = [
+export const publications: Publication[] = [ {
+      title: "HuTCH: Human Teachable Concept Highlighter for Post-hoc Visual Explanations",
+        url: "",
+        tags: ["Teachability", "XAI", "Concept-based Learning", "Concept Activation Vectors", "Computer Vision"],
+        authors: "Erfan Mirhaji, Nikhil Krishnaswamy, Jill Zarestky, Lisa Mason, Sarath Sreedharan, and Nathaniel Blanchard",
+        year: 2025,
+        additional: "International Conference on Artificial Intelligence in Education (AIED)",
+      },
+  
         {
       title: "On the Role of Domain Experts in Creating Effective Tutoring Systems",
       url: "https://sarathsreedharan.com/files/papers/conference/AIED_bluesky.pdf",
