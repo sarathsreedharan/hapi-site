@@ -14,12 +14,20 @@ export interface Publication {
 
 export const publications: Publication[] = [
         {
+      title: "A Survey on Model Repair in AI Planning",
+      url: "https://sarathsreedharan.com/files/papers/conference/ijcai_survey_model_repair.pdf",
+      tags: ["Other"],
+      authors: "Pascal Bercher, Sarath Sreedharan, Mauro Vallati",
+      year: 2025,
+      additional: "IJCAI 2025",
+    },
+    {
       title: "On the Role of Domain Experts in Creating Effective Tutoring Systems",
       url: "https://sarathsreedharan.com/files/papers/conference/AIED_bluesky.pdf",
       tags: ["Human-Aware AI", "XAI", "ITS"],
       authors: "Sarath Sreedharan, Kelsey Sikes, Nathaniel Blanchard, Lisa Mason, Nikhil Krishnaswamy, Jill Zarestky",
       year: 2025,
-      additional: "RAD-AI Workshop at AAMAS-23",
+      additional: "AIED 2025",
     },
     {
     title: "Mental Model-based Generation of Lies for Insider Threat Modeling",
@@ -27,7 +35,7 @@ export const publications: Publication[] = [
     tags: ["Human-Aware AI", "XAI"],
     authors: "Brittany Cates, Sarath Sreedharan",
     year: 2025,
-    additional: "RAD-AI Workshop at AAMAS-23",
+    additional: "RAD-AI Workshop at AAMAS-25",
   },
   {
     title: "You said No, What's Next?",
@@ -35,7 +43,7 @@ export const publications: Publication[] = [
     tags: ["Human-Aware AI", "XAI"],
     authors: "Sarath Sreedharan, Gordon M. Briggs",
     year: 2025,
-    additional: "RAD-AI Workshop at AAMAS-23",
+    additional: "RAD-AI Workshop at AAMAS-25",
   },
   {
     title: "Explain it as simple as possible, but no simpler – Explanation via model simplification for addressing inferential gap",
