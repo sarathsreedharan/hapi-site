@@ -15,7 +15,7 @@ export interface Publication {
 export const publications: Publication[] = [ {
       title: "HuTCH: Human Teachable Concept Highlighter for Post-hoc Visual Explanations",
         url: "",
-        tags: ["Teachability", "XAI", "Concept-based Learning", "Concept Activation Vectors", "Computer Vision"],
+        tags: ["XAI"],
         authors: "Erfan Mirhaji, Nikhil Krishnaswamy, Jill Zarestky, Lisa Mason, Sarath Sreedharan, and Nathaniel Blanchard",
         year: 2025,
         additional: "International Conference on Artificial Intelligence in Education (AIED)",
