@@ -29,14 +29,6 @@ export const teamMembers: TeamMember[] = [
     website: { text: "sarathsreedharan.com", url: "http://sarathsreedharan.com/" },
   },
   {
-    name: "Turgay Caglar",
-    title: "Ph.D.",
-    focus: "AI & Planning",
-    image: "/team/turguy.png",
-    email: "turgay.caglar@colostate.edu",
-    linkedin: { text: "Turgay Caglar", url: "https://www.linkedin.com/in/turgay-caglar-6a2780a0/" },
-  },
-  {
     name: "Kelsey Sikes",
     title: "Ph.D.",
     focus: "AI, Planning & Value Alignment",
@@ -68,9 +60,10 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Erfan Mirhaji",
     title: "Ms",
-    focus: "",
-    image: "/team/default.jpg",
-    email: "",
+    focus: "XAI",
+    image: "/team/erfan.jpg",
+    email: "Erfan.Mirhaji@colostate.edu",
+    linkedin: { text: "Erfan Mirhaji", url: "https://www.linkedin.com/in/erfan-mirhaji-242b82198/"},
   },
   {
     name: "Phil Hopkins",
@@ -95,6 +88,13 @@ export const teamMembers: TeamMember[] = [
 ]
 
 export const alumni: TeamMember[] = [
+  {
+    name: "Turguy Caglar",
+    title: "Ph.D.",
+    focus: "AI & Planning",
+    image: "/team/turguy.png",
+    email: "turguy.caglar@colostate.edu",
+  },
   {
     name: "Malek Merchergui",
     title: "Ms",
