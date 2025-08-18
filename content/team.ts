@@ -68,9 +68,9 @@ export const teamMembers: TeamMember[] = [
     name: "Erfan Mirhaji",
     title: "Ms",
     focus: "XAI",
-    image: "/team/erfan.jpg",
+    image: "/team/erfan.png",
     email: "Erfan.Mirhaji@colostate.edu",
-    linkedin: { text: "Erfan Mirhaji", url: "https://www.linkedin.com/in/erfan-mirhaji-242b82198/}",
+    linkedin: { text: "Erfan Mirhaji", url: "https://www.linkedin.com/in/erfan-mirhaji-242b82198/"},
   },
   {
     name: "Phil Hopkins",
