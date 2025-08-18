@@ -70,7 +70,7 @@ export const teamMembers: TeamMember[] = [
     focus: "XAI",
     image: "/team/erfan.jpg",
     email: "Erfan.Mirhaji@colostate.edu",
-    linkedin: { text: "Erfan Mirhaji", url: "https://www.linkedin.com/in/erfan-mirhaji-242b82198/"
+    linkedin: { text: "Erfan Mirhaji", url: "https://www.linkedin.com/in/erfan-mirhaji-242b82198/}",
   },
   {
     name: "Phil Hopkins",
