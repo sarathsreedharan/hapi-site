@@ -28,7 +28,6 @@ export const teamMembers: TeamMember[] = [
     email: "sarath.sreedharan@colostate.edu",
     website: { text: "sarathsreedharan.com", url: "http://sarathsreedharan.com/" },
   },
-
   {
     name: "Kelsey Sikes",
     title: "Ph.D.",
