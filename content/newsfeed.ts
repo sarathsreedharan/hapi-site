@@ -77,4 +77,14 @@ export const publications: NewsUpdate[] = [
     description: "",
     date: "02-25-2025",
   },
+  {
+    title: "Kelsey Sikes has just completed her Master's Defense",
+    description: "",
+    date: "05-09-2025",
+  },
+  {
+    title: "Turgay Caglar has just completed her Ph.D. Dissertation Defense",
+    description: "",
+    date: "06-30-2025",
+  },
 ]

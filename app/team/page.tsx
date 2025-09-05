@@ -12,12 +12,12 @@ export default function About() {
         <h1 className="text-5xl text-primary-800 font-bold mb-4">MEET THE TEAM</h1>
         <p className="text-lg text-gray-800 mb-4">
           At the Human-Aware Planning & Interaction (HAPI) Lab, we are dedicated to advancing computer science through innovative
-          research and by fostering a supportive comuunity of scholards. Our lab embraces diversity and encourages open-minded
+          research and by fostering a supportive community of scholars. Our lab embraces diversity and encourages open-minded
           exploration across a variety of research areas.
         </p>
         <p className="text-lg text-gray-800 mb-8">
           Members of our lab come from a variety of academic backgrounds (ranging from journalism to psychology and industrial
-          engineering) and from many different countries including the USA, Turkey, Singapore, Tunisia, and more.
+          engineering) and from many different countries including the USA, Turkey, Indonesia, Tunisia, and more.
         </p>
       </div>
 
