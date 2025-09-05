@@ -46,16 +46,16 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Septia Rani",
     title: "Ph.D.",
-    focus: "Reinforcement Learning",
+    focus: "Human-AI Interaction",
     image: "/team/septia.png",
     email: "septia.rani@colostate.edu",
   },
   {
     name: "Dennis Kim",
     title: "Ph.D.",
-    focus: "",
+    focus: "Artificial Intelligence",
     image: "/team/dennis.jpg",
-    email: "",
+    email: "d.kim@colostate.edu",
   },
   {
     name: "Erfan Mirhaji",
