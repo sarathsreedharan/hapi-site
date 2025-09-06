@@ -14,7 +14,7 @@ export default function Team() {
               <Link href="/contact" className="underline">
                 read our FAQ
               </Link>
-               and consider contacting us here.
+              {" "}and consider contacting us here.
             </p>
           </div>
           <div>
