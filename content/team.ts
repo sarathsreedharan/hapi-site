@@ -83,7 +83,7 @@ export const teamMembers: TeamMember[] = [
     name: "Roya Daneshi",
     title: "Ph.D.",
     focus: "Explainable AI, Planning",
-    image: "/team/roya.jpg",
+    image: "/team/roya.JPG",
     email: "roya.daneshi@colostate.edu",
     linkedin: { text: "Roya Daneshi", url: "https://www.linkedin.com/in/roya-daneshi-8253521ba/"},
 
