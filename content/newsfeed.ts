@@ -87,4 +87,9 @@ export const publications: NewsUpdate[] = [
     description: "",
     date: "06-30-2025",
   },
+    {
+    title: "Four papers from HAPI Lab have been accepted to AAAI-26",
+    description: "",
+    date: "11-16-2025",
+  },
 ]
