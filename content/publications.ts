@@ -12,7 +12,23 @@ export interface Publication {
 
 // JSON for publications section of the Research page
 
-export const publications: Publication[] = [ 
+export const publications: Publication[] = [
+      {
+        title: "The Curious Case of Planning for Unreliable Agents: Challenges and Opportunities in Orchestrating Generative AI Agents",
+        url: "https://drive.google.com/file/d/144ZtgdI6hjwYJO_tNALYUnreT-8s-Nnp/view?usp=share_link",
+        tags: ["Planning and Learning"],
+        authors: "Roya Daneshi, Sunandita Patra, Kshama Dwarakanath, Sriram Gopalakrishnan, Daniel Borrajo, and Sarath Sreedharan",
+        year: 2026,
+        additional: "ICAPS LM4Plan Workshop 2026",
+      },
+      {
+        title: "Sequential Decision-Making with Explanatory Actions",
+        url: "https://drive.google.com/file/d/1eX_TDEPMF4EP4g9utLMndmPoSoLSlACl/view?usp=share_link",
+        tags: ["Human-Aware AI", "Planning and Learning"],
+        authors: "Hendrik Baier, Roya Daneshi, and Sarath Sreedharan",
+        year: 2026,
+        additional: "IJCAI XAI Workshop 2026",
+      },
       {
         title: "Reducing Goal State Divergence with Environment Design",
         url: "https://drive.google.com/file/d/1d4x5WgHWKeksUCL-rIy-Q26mZzInhIsv/view?usp=drive_link",
