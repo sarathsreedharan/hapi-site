@@ -13,6 +13,14 @@ export interface Publication {
 // JSON for publications section of the Research page
 
 export const publications: Publication[] = [
+    {
+        title: "Asymmetric Trust Effects of Corrective AI in Expert Advisory Workflows under Epistemic Dependence",
+        url: "https://drive.google.com/file/d/10_UR6AjhxJ2XQ6BKa5MLGclOPA0ArakU/view?usp=sharing",
+        tags: ["Other"],
+        authors: "Dennis Kim, Roya Daneshi, Bruce Draper, and Sarath Sreedharan",
+        year: 2026,
+        additional: "AIES 2026",
+      },
       {
         title: "The Curious Case of Planning for Unreliable Agents: Challenges and Opportunities in Orchestrating Generative AI Agents",
         url: "https://drive.google.com/file/d/144ZtgdI6hjwYJO_tNALYUnreT-8s-Nnp/view?usp=share_link",
