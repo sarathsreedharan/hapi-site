@@ -27,7 +27,7 @@ export const publications: Publication[] = [
         tags: ["Planning and Learning"],
         authors: "Michael Katz, Harsha Kokel, Christian Muise, Shirin Sohrabi, and Sarath Sreedharan",
         year: 2026,
-        additional: "Forty-third International Conference on Machine Learning Position Paper Track, 2026",
+        additional: "ICML, Position Paper Track, 2026",
     },
     {
         title: "Planning for Signaling in Low-Trust Environments",
@@ -43,7 +43,7 @@ export const publications: Publication[] = [
         tags: ["XAI"],
         authors: "Sarath Sreedharan and Pascal Bercher",
         year: 2026,
-        additional: "Proceedings of the International Conference on Automated Planning and …, 2026",
+        additional: "ICAPS, 2026",
     },
     {
         title: "You Can Go First—Planning for Social Law Synthesis in Asymmetric Multi-agent Settings",
@@ -51,7 +51,7 @@ export const publications: Publication[] = [
         tags: ["Human-Aware AI"],
         authors: "Sarath Sreedharan, Philip Hopkins, and Felipe Meneguzzi",
         year: 2026,
-        additional: "Proc. of the 25th International Conference on Autonomous Agents and …, 2026",
+        additional: "AAMAS (Extended Abstract), 2026",
     },
     {
         title: "Nested Training for Mutual Adaptation in Human-AI Teaming",
@@ -59,7 +59,7 @@ export const publications: Publication[] = [
         tags: ["Human-Aware AI"],
         authors: "Upasana Biswas, Durgesh Kalwar, Subbarao Kambhampati, and Sarath Sreedharan",
         year: 2026,
-        additional: "Proc. of the 25th International Conference on Autonomous Agents and …, 2026",
+        additional: "AAMAS (Extended Abstract), 2026",
     },
     {
         title: "Explanations for Sequential Decision-Making–an Overview",
@@ -67,7 +67,7 @@ export const publications: Publication[] = [
         tags: ["XAI"],
         authors: "Hendrik Baier, Mark T Keane, Sarath Sreedharan, Silvia Tulli, and Abhinav Verma",
         year: 2026,
-        additional: "Proceedings of the AAAI Conference on Artificial Intelligence 40 (48), 40948 …, 2026",
+        additional: "AAAI",
     },
     {
         title: "Inferring implicit goals across differing task models",
@@ -75,7 +75,7 @@ export const publications: Publication[] = [
         tags: ["Human-Aware AI"],
         authors: "Silvia Tulli, Stylianos Loukas Vasileiou, Mohamed Chetouani, and Sarath Sreedharan",
         year: 2026,
-        additional: "Proceedings of the AAAI Conference on Artificial Intelligence 40 (21), 17760 …, 2026",
+        additional: "AAAI, 2026",
     },
     {
         title: "NestRL: A Nested Training Regime for Mutual Adaptation in Human-AI Teaming",
@@ -84,14 +84,6 @@ export const publications: Publication[] = [
         authors: "Upasana Biswas, Durgesh Kalwar, Subbarao Kambhampati, and Sarath Sreedharan",
         year: 2026,
         additional: "arXiv preprint arXiv:2602.17737, 2026",
-    },
-    {
-        title: "Implications of AI Involvement for Trust in Expert Advisory Workflows Under Epistemic Dependence",
-        url: "https://arxiv.org/abs/2602.11522",
-        tags: ["Human-Aware AI"],
-        authors: "Dennis Kim, Roya Daneshi, Bruce Draper, and Sarath Sreedharan",
-        year: 2026,
-        additional: "arXiv preprint arXiv:2602.11522, 2026",
     },
     {
         title: "Seemingly simple planning problems are computationally challenging: The countdown game",
@@ -107,7 +99,7 @@ export const publications: Publication[] = [
         tags: ["Other"],
         authors: "Rakesh Podder, Turgay Caglar, Shadaab Kawnain Bashir, Sarath Sreedharan, Indrajit Ray, and Indrakshi Ray",
         year: 2025,
-        additional: "Proceedings of the 30th ACM Symposium on Access Control Models and …, 2025",
+        additional: "ACM Symposium on Access Control Models and Technologies",
     },
     {
         title: "Using Human-Aware AI as a Framework to Achieve Intent Alignment",
@@ -115,7 +107,7 @@ export const publications: Publication[] = [
         tags: ["Human-Aware AI"],
         authors: "Sarath Sreedharan",
         year: 2025,
-        additional: "2025 IEEE Conference on Artificial Intelligence (CAI), 1217-1220, 2025",
+        additional: "IEEE Conference on Artificial Intelligence (CAI)",
     },
     {
         title: "Explainable AI for Sequential Decision Making: Report from Dagstuhl Seminar 24372",
@@ -123,7 +115,7 @@ export const publications: Publication[] = [
         tags: ["XAI"],
         authors: "Hendrik Baier, Mark T Keane, Sarath Sreedharan, Silvia Tulli, Abhinav Verma, and Stylianos Loukas Vasileiou",
         year: 2025,
-        additional: "Dagstuhl Reports 14 (9), 67-103, 2025",
+        additional: "Dagstuhl Reports 14",
     },
     {
         title: "Asymmetric Trust Effects of Corrective AI in Expert Advisory Workflows under Epistemic Dependence",
