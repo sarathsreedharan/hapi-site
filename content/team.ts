@@ -72,13 +72,6 @@ export const teamMembers: TeamMember[] = [
     image: "/team/phil.jpg",
     email: "",
   },
-  {
-    name: "Trisha Ghali",
-    title: "Ms",
-    focus: "",
-    image: "/team/trisha.jpg",
-    email: "",
-  },
    {
     name: "Roya Daneshi",
     title: "Ph.D.",
@@ -124,5 +117,12 @@ export const alumni: TeamMember[] = [
     title: "Undergraduate",
     focus: "",
     image: "/team/wyatt.jpg",
+  },
+  {
+    name: "Trisha Ghali",
+    title: "Ms",
+    focus: "",
+    image: "/team/trisha.jpg",
+    email: "",
   },
 ]
